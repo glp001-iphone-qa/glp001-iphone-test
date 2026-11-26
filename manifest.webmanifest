@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "GLP-001 iPhone QA — Test Copy",
+  "name": "GLP-001 Preview — Test Copy",
   "short_name": "GLP QA",
-  "description": "Isolated test copy. Use made-up notes only. Not the published Gurbani Learning Library.",
+  "description": "Separate development preview. Use made-up notes only. Qualified review pending.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
