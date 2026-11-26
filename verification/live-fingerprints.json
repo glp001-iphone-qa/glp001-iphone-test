@@ -1,0 +1,697 @@
+{
+  "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+  "sourceCommit": "acfeb0a157fc2cf38ae7ccbaeb2c53d8e97d3bec",
+  "checked": 86,
+  "allMatch": true,
+  "results": [
+    {
+      "path": "./",
+      "status": 200,
+      "bytes": 6868,
+      "expected": "5319258b420b28bda88d855154a46b2b2cd8fcf4b343e82ff4db49af86ae3146",
+      "actual": "5319258b420b28bda88d855154a46b2b2cd8fcf4b343e82ff4db49af86ae3146",
+      "match": true
+    },
+    {
+      "path": "./full-japji.html",
+      "status": 200,
+      "bytes": 5941,
+      "expected": "815644d061f05dec4f50132a01fbd8278ec5ea3848e8d689293b5203830847ef",
+      "actual": "815644d061f05dec4f50132a01fbd8278ec5ea3848e8d689293b5203830847ef",
+      "match": true
+    },
+    {
+      "path": "./index.html",
+      "status": 200,
+      "bytes": 6868,
+      "expected": "5319258b420b28bda88d855154a46b2b2cd8fcf4b343e82ff4db49af86ae3146",
+      "actual": "5319258b420b28bda88d855154a46b2b2cd8fcf4b343e82ff4db49af86ae3146",
+      "match": true
+    },
+    {
+      "path": "./gurdwaras.html",
+      "status": 200,
+      "bytes": 2960,
+      "expected": "b9c996bda8d2747f0638f643e68a1b4a9792426ee8af2823a2b3008b247ed9bd",
+      "actual": "b9c996bda8d2747f0638f643e68a1b4a9792426ee8af2823a2b3008b247ed9bd",
+      "match": true
+    },
+    {
+      "path": "./gurdwara.html",
+      "status": 200,
+      "bytes": 2969,
+      "expected": "02f27f3874c0f39e2e239728572a9daaaff68bf85a1294c14665dc8c0b93118f",
+      "actual": "02f27f3874c0f39e2e239728572a9daaaff68bf85a1294c14665dc8c0b93118f",
+      "match": true
+    },
+    {
+      "path": "./simran.html",
+      "status": 200,
+      "bytes": 4033,
+      "expected": "9eada6b91c7800e2ec2eb92551a52f13afbc39b9e1c51b94c7e2769a7f08ac3b",
+      "actual": "9eada6b91c7800e2ec2eb92551a52f13afbc39b9e1c51b94c7e2769a7f08ac3b",
+      "match": true
+    },
+    {
+      "path": "./pauri-2-lesson.html",
+      "status": 200,
+      "bytes": 7372,
+      "expected": "f107bf3df6e48b0958e00e6bb2b94d73fb0d1cba020261452b3cb6d9c8c3810d",
+      "actual": "f107bf3df6e48b0958e00e6bb2b94d73fb0d1cba020261452b3cb6d9c8c3810d",
+      "match": true
+    },
+    {
+      "path": "./css/app.css",
+      "status": 200,
+      "bytes": 25013,
+      "expected": "b17abbb20661a9880792250b952008c84a03b2cd31cb3451b84685d67808d434",
+      "actual": "b17abbb20661a9880792250b952008c84a03b2cd31cb3451b84685d67808d434",
+      "match": true
+    },
+    {
+      "path": "./css/japji-full.css",
+      "status": 200,
+      "bytes": 21676,
+      "expected": "15ab6388144f65b31ab0a2d5d227c4bc4c060967f03da06e514138855053f13c",
+      "actual": "15ab6388144f65b31ab0a2d5d227c4bc4c060967f03da06e514138855053f13c",
+      "match": true
+    },
+    {
+      "path": "./css/home.css",
+      "status": 200,
+      "bytes": 8776,
+      "expected": "d398a0799198d24fdd29e87d6a9e0fca881790874db4753adf3333aec0dca93e",
+      "actual": "d398a0799198d24fdd29e87d6a9e0fca881790874db4753adf3333aec0dca93e",
+      "match": true
+    },
+    {
+      "path": "./css/arrivals.css",
+      "status": 200,
+      "bytes": 6415,
+      "expected": "900579af694f620d544ed7375d5b3fa17ef7f010751f03451eb374f4b96a9801",
+      "actual": "900579af694f620d544ed7375d5b3fa17ef7f010751f03451eb374f4b96a9801",
+      "match": true
+    },
+    {
+      "path": "./css/simran.css",
+      "status": 200,
+      "bytes": 4167,
+      "expected": "2eeff6264e09d2d6846d7a3a21cc6fb860453165a9ead5fa93f24f05dff4d67b",
+      "actual": "2eeff6264e09d2d6846d7a3a21cc6fb860453165a9ead5fa93f24f05dff4d67b",
+      "match": true
+    },
+    {
+      "path": "./js/home.js",
+      "status": 200,
+      "bytes": 1489,
+      "expected": "30e2072bbefa48b407c14582d82a21dec1281a375275ad4d0b9796dd97125cc4",
+      "actual": "30e2072bbefa48b407c14582d82a21dec1281a375275ad4d0b9796dd97125cc4",
+      "match": true
+    },
+    {
+      "path": "./js/arrivals.js",
+      "status": 200,
+      "bytes": 3690,
+      "expected": "e820a555cd4fe98027938dc1a63439c8de595509f0b648fe7b01a1dd7e7a0118",
+      "actual": "e820a555cd4fe98027938dc1a63439c8de595509f0b648fe7b01a1dd7e7a0118",
+      "match": true
+    },
+    {
+      "path": "./js/simran.js",
+      "status": 200,
+      "bytes": 2411,
+      "expected": "f0e55833f7a0df06a7d011fa1bf6162d102ed2deeb33d7e5a68949d4e68baced",
+      "actual": "f0e55833f7a0df06a7d011fa1bf6162d102ed2deeb33d7e5a68949d4e68baced",
+      "match": true
+    },
+    {
+      "path": "./js/app.js",
+      "status": 200,
+      "bytes": 25133,
+      "expected": "fe18e2b5846dd329a0ab2d49fb3f30f7557bcc1ba9c676e70d649d1409aeae55",
+      "actual": "fe18e2b5846dd329a0ab2d49fb3f30f7557bcc1ba9c676e70d649d1409aeae55",
+      "match": true
+    },
+    {
+      "path": "./js/content.js",
+      "status": 200,
+      "bytes": 24595,
+      "expected": "83d6541b9dde3c06d36a45fb4d4546e3d71a9fedda43108b49e94f2c829b5d62",
+      "actual": "83d6541b9dde3c06d36a45fb4d4546e3d71a9fedda43108b49e94f2c829b5d62",
+      "match": true
+    },
+    {
+      "path": "./js/core.js",
+      "status": 200,
+      "bytes": 5710,
+      "expected": "7f010691a2279387694c5235eb2744ae7b2a08d3569cedd754b5e9a6c09e0306",
+      "actual": "7f010691a2279387694c5235eb2744ae7b2a08d3569cedd754b5e9a6c09e0306",
+      "match": true
+    },
+    {
+      "path": "./js/gurdwaras.js",
+      "status": 200,
+      "bytes": 7977,
+      "expected": "7540b5d637d65307a2d7112e5657ab6ffe06a07addaeddf5441e70f76f075ad2",
+      "actual": "7540b5d637d65307a2d7112e5657ab6ffe06a07addaeddf5441e70f76f075ad2",
+      "match": true
+    },
+    {
+      "path": "./js/places.js",
+      "status": 200,
+      "bytes": 1833,
+      "expected": "fb3a5e82851455e84c6666178740002df99a2c4f8e18f74ceec8f054511520ef",
+      "actual": "fb3a5e82851455e84c6666178740002df99a2c4f8e18f74ceec8f054511520ef",
+      "match": true
+    },
+    {
+      "path": "./js/continuous-core.js",
+      "status": 200,
+      "bytes": 6056,
+      "expected": "4b67e25ae2ecda6754cd9b768d60a49b5d6f421f10ed12ebc90313c4ddd2576d",
+      "actual": "4b67e25ae2ecda6754cd9b768d60a49b5d6f421f10ed12ebc90313c4ddd2576d",
+      "match": true
+    },
+    {
+      "path": "./js/japji-full-data.js",
+      "status": 200,
+      "bytes": 83714,
+      "expected": "7f5f78ac33da1a944e14c3d2b901926686df7e520e6fe681f6a28802d85e9808",
+      "actual": "7f5f78ac33da1a944e14c3d2b901926686df7e520e6fe681f6a28802d85e9808",
+      "match": true
+    },
+    {
+      "path": "./js/japji-full.js",
+      "status": 200,
+      "bytes": 46656,
+      "expected": "28fa6cdd457fb6252083c72132e350f804d6b70cbf7312321980e2ee31951a22",
+      "actual": "28fa6cdd457fb6252083c72132e350f804d6b70cbf7312321980e2ee31951a22",
+      "match": true
+    },
+    {
+      "path": "./js/japji-lessons.js",
+      "status": 200,
+      "bytes": 257626,
+      "expected": "4f77c593d2df8dd6e72ead4cb2b2012991a3ca0ad56495f6f5a30ae96a7d7078",
+      "actual": "4f77c593d2df8dd6e72ead4cb2b2012991a3ca0ad56495f6f5a30ae96a7d7078",
+      "match": true
+    },
+    {
+      "path": "./js/line-meanings.js",
+      "status": 200,
+      "bytes": 115470,
+      "expected": "5f2ccfea58faa9fc5a31edac3ec9d3483e0ec2360e471fd3616f17eed005485a",
+      "actual": "5f2ccfea58faa9fc5a31edac3ec9d3483e0ec2360e471fd3616f17eed005485a",
+      "match": true
+    },
+    {
+      "path": "./js/learning.js",
+      "status": 200,
+      "bytes": 10230,
+      "expected": "ad40c7f08683e1955536266b692373ce454ec4638559ccd53a3af7299387e61b",
+      "actual": "ad40c7f08683e1955536266b692373ce454ec4638559ccd53a3af7299387e61b",
+      "match": true
+    },
+    {
+      "path": "./js/shared-learning.js",
+      "status": 200,
+      "bytes": 2119,
+      "expected": "8a35f16992769174163c9a3b0b6dacc767dac4cdf33e2f3e9e4c4d9f57eebe2b",
+      "actual": "8a35f16992769174163c9a3b0b6dacc767dac4cdf33e2f3e9e4c4d9f57eebe2b",
+      "match": true
+    },
+    {
+      "path": "./js/pwa.js",
+      "status": 200,
+      "bytes": 2333,
+      "expected": "7d940577bd74afc66b860ca7f7f13593c190c746a8e6a82f3d4edf00e10b4365",
+      "actual": "7d940577bd74afc66b860ca7f7f13593c190c746a8e6a82f3d4edf00e10b4365",
+      "match": true
+    },
+    {
+      "path": "./icons/icon-180.png",
+      "status": 200,
+      "bytes": 955,
+      "expected": "98ec275ff591dee5d3f9c62993e32d07121c0a5ba24c09a5220e37fe21f671a7",
+      "actual": "98ec275ff591dee5d3f9c62993e32d07121c0a5ba24c09a5220e37fe21f671a7",
+      "match": true
+    },
+    {
+      "path": "./icons/icon-192.png",
+      "status": 200,
+      "bytes": 983,
+      "expected": "25f35d2932f58f6cb3cdf224b0d8cffee122a71452f3b00eb91b9b451054b739",
+      "actual": "25f35d2932f58f6cb3cdf224b0d8cffee122a71452f3b00eb91b9b451054b739",
+      "match": true
+    },
+    {
+      "path": "./icons/icon-512.png",
+      "status": 200,
+      "bytes": 2962,
+      "expected": "6177c056e2e0fc5e6a1b3aafff4f1f8b7882efcfe6a9f3ed49a5ffdd37bfda0c",
+      "actual": "6177c056e2e0fc5e6a1b3aafff4f1f8b7882efcfe6a9f3ed49a5ffdd37bfda0c",
+      "match": true
+    },
+    {
+      "path": "./manifest.webmanifest",
+      "status": 200,
+      "bytes": 529,
+      "expected": "7759cc57ea7da1cb52043dc4ea1788e2801d59436d84eeee27d04dced043ea09",
+      "actual": "7759cc57ea7da1cb52043dc4ea1788e2801d59436d84eeee27d04dced043ea09",
+      "match": true
+    },
+    {
+      "path": "./sukhmani.html",
+      "status": 200,
+      "bytes": 5145,
+      "expected": "7c0b0dfd6c857dc6c1605047b89a7f416e695892e180134fc1a93eb39060924d",
+      "actual": "7c0b0dfd6c857dc6c1605047b89a7f416e695892e180134fc1a93eb39060924d",
+      "match": true
+    },
+    {
+      "path": "./css/sukhmani.css",
+      "status": 200,
+      "bytes": 7820,
+      "expected": "3c3e81f9592d215809e52458f708314bd5624a0c1bd3eb13c22f2b8ab2c9cf3f",
+      "actual": "3c3e81f9592d215809e52458f708314bd5624a0c1bd3eb13c22f2b8ab2c9cf3f",
+      "match": true
+    },
+    {
+      "path": "./js/sukhmani-data.js",
+      "status": 200,
+      "bytes": 1241749,
+      "expected": "0cdd704749265c09ead442ec5fd6c84569b1da34dd40ec021585dacd4a1c65f6",
+      "actual": "0cdd704749265c09ead442ec5fd6c84569b1da34dd40ec021585dacd4a1c65f6",
+      "match": true
+    },
+    {
+      "path": "./js/sukhmani-teaching.js",
+      "status": 200,
+      "bytes": 1841631,
+      "expected": "5c637bc1f098cfd2416ad28404c79cc8561143fd7ca5921b3238a8f9cab134e6",
+      "actual": "5c637bc1f098cfd2416ad28404c79cc8561143fd7ca5921b3238a8f9cab134e6",
+      "match": true
+    },
+    {
+      "path": "./js/sukhmani-learning.js",
+      "status": 200,
+      "bytes": 4617,
+      "expected": "e781cf4decf30a7200def21c1a82c0031447d3cbc3d1662eb8971592c217d1a4",
+      "actual": "e781cf4decf30a7200def21c1a82c0031447d3cbc3d1662eb8971592c217d1a4",
+      "match": true
+    },
+    {
+      "path": "./js/sukhmani-reader.js",
+      "status": 200,
+      "bytes": 32047,
+      "expected": "ae5c29fb572df5af868d166e81239bd18030ae8c6e1da75a8b157704caaaf2cd",
+      "actual": "ae5c29fb572df5af868d166e81239bd18030ae8c6e1da75a8b157704caaaf2cd",
+      "match": true
+    },
+    {
+      "path": "./nitnem/",
+      "status": 200,
+      "bytes": 13797,
+      "expected": "fe57508a19f9af4551154fa3567f0a9390033dd2b1b469123e3c5b691edda5aa",
+      "actual": "fe57508a19f9af4551154fa3567f0a9390033dd2b1b469123e3c5b691edda5aa",
+      "match": true
+    },
+    {
+      "path": "./nitnem/index.html",
+      "status": 200,
+      "bytes": 13797,
+      "expected": "fe57508a19f9af4551154fa3567f0a9390033dd2b1b469123e3c5b691edda5aa",
+      "actual": "fe57508a19f9af4551154fa3567f0a9390033dd2b1b469123e3c5b691edda5aa",
+      "match": true
+    },
+    {
+      "path": "./nitnem/reader.js",
+      "status": 200,
+      "bytes": 52208,
+      "expected": "9404e7224de4994f2acf1061d7467bae7cd4e9be29110ae4362809053668abc6",
+      "actual": "9404e7224de4994f2acf1061d7467bae7cd4e9be29110ae4362809053668abc6",
+      "match": true
+    },
+    {
+      "path": "./nitnem/reader.css",
+      "status": 200,
+      "bytes": 24066,
+      "expected": "73977e4d6e3cd78286807a0af8d8bc58e7008daf96e8b84f364811a6a5076d57",
+      "actual": "73977e4d6e3cd78286807a0af8d8bc58e7008daf96e8b84f364811a6a5076d57",
+      "match": true
+    },
+    {
+      "path": "./nitnem/continuous-core.js",
+      "status": 200,
+      "bytes": 4249,
+      "expected": "9b48fa24327076bd35693dfdd5144cbbf004de488a9a6b962f3fa61d6174d78c",
+      "actual": "9b48fa24327076bd35693dfdd5144cbbf004de488a9a6b962f3fa61d6174d78c",
+      "match": true
+    },
+    {
+      "path": "./nitnem/appearance.js",
+      "status": 200,
+      "bytes": 3595,
+      "expected": "38cbe64a0f2e2302ea48f74085ac437d01096d4fa89729415fb501b6f8ceb5cc",
+      "actual": "38cbe64a0f2e2302ea48f74085ac437d01096d4fa89729415fb501b6f8ceb5cc",
+      "match": true
+    },
+    {
+      "path": "./nitnem/appearance.css",
+      "status": 200,
+      "bytes": 2695,
+      "expected": "01cef2268ca54a5ada570878f96a640090364bc1b82fda22a74e16bba05e7377",
+      "actual": "01cef2268ca54a5ada570878f96a640090364bc1b82fda22a74e16bba05e7377",
+      "match": true
+    },
+    {
+      "path": "./nitnem/local-learning.js",
+      "status": 200,
+      "bytes": 9147,
+      "expected": "8002c72c164737265019795b32aa4aff4065dda86f0cce7132983657de2f4e29",
+      "actual": "8002c72c164737265019795b32aa4aff4065dda86f0cce7132983657de2f4e29",
+      "match": true
+    },
+    {
+      "path": "./nitnem/offline.js",
+      "status": 200,
+      "bytes": 2682,
+      "expected": "0eb4401ec4c22b5a0490450f2760be792236156a7dae9d99c946ecbbc6e5f690",
+      "actual": "0eb4401ec4c22b5a0490450f2760be792236156a7dae9d99c946ecbbc6e5f690",
+      "match": true
+    },
+    {
+      "path": "./nitnem/learning/learning-ui.js",
+      "status": 200,
+      "bytes": 9161,
+      "expected": "dc6da48882ceb647023e451eb6fff10c57f2af87e9a531486cf8bb89c87409b2",
+      "actual": "dc6da48882ceb647023e451eb6fff10c57f2af87e9a531486cf8bb89c87409b2",
+      "match": true
+    },
+    {
+      "path": "./nitnem/learning/course.complete.json",
+      "status": 200,
+      "bytes": 2313550,
+      "expected": "5f9f877b37e2e0dba58076cdf6bfb5ec9201b2b5f02619d7b52821ec12d0e10c",
+      "actual": "5f9f877b37e2e0dba58076cdf6bfb5ec9201b2b5f02619d7b52821ec12d0e10c",
+      "match": true
+    },
+    {
+      "path": "./nitnem/data/library.json",
+      "status": 200,
+      "bytes": 2552,
+      "expected": "9cf422955cba07ee9a8f49fbcedc4969b84232d497658fcaafe37a4aa63f4d75",
+      "actual": "9cf422955cba07ee9a8f49fbcedc4969b84232d497658fcaafe37a4aa63f4d75",
+      "match": true
+    },
+    {
+      "path": "./nitnem/data/jaap.json",
+      "status": 200,
+      "bytes": 538376,
+      "expected": "f00ab63bfe27ad36fac6b7b285c480f3265780f5eb02bb077cafcc29c9e7dcec",
+      "actual": "f00ab63bfe27ad36fac6b7b285c480f3265780f5eb02bb077cafcc29c9e7dcec",
+      "match": true
+    },
+    {
+      "path": "./nitnem/data/savaiye.json",
+      "status": 200,
+      "bytes": 27078,
+      "expected": "7d5e6fe9ac801b7649e4ef3547a25a79ee1f543f70c4f6bb52492d2d8f37cfaa",
+      "actual": "7d5e6fe9ac801b7649e4ef3547a25a79ee1f543f70c4f6bb52492d2d8f37cfaa",
+      "match": true
+    },
+    {
+      "path": "./nitnem/data/chaupai.json",
+      "status": 200,
+      "bytes": 70494,
+      "expected": "289bbd6d725a7921bf1e160620b14ac927fe5e5874c219849168ee70b9389046",
+      "actual": "289bbd6d725a7921bf1e160620b14ac927fe5e5874c219849168ee70b9389046",
+      "match": true
+    },
+    {
+      "path": "./nitnem/data/anand.json",
+      "status": 200,
+      "bytes": 127242,
+      "expected": "124245dfbfa260efd618f513683cbd5dd273e5f7aefdf86bee28db4ee778471a",
+      "actual": "124245dfbfa260efd618f513683cbd5dd273e5f7aefdf86bee28db4ee778471a",
+      "match": true
+    },
+    {
+      "path": "./nitnem/data/rehras.json",
+      "status": 200,
+      "bytes": 149365,
+      "expected": "81bff60d8c942a7eafc30a0b7f3ba994816c6e86a0c8d8daeb7c1ca2f2cebc3b",
+      "actual": "81bff60d8c942a7eafc30a0b7f3ba994816c6e86a0c8d8daeb7c1ca2f2cebc3b",
+      "match": true
+    },
+    {
+      "path": "./nitnem/data/sohila.json",
+      "status": 200,
+      "bytes": 26637,
+      "expected": "7fe21aec71a889c452d639141994087ee2a1390d800c78b59bf604c4496df673",
+      "actual": "7fe21aec71a889c452d639141994087ee2a1390d800c78b59bf604c4496df673",
+      "match": true
+    },
+    {
+      "path": "./js/source-integrity.js",
+      "status": 200,
+      "bytes": 83910,
+      "expected": "b23448db043545a14056cf5fbf226f0b8a65f749feddb61859b5fe5bcded0757",
+      "actual": "b23448db043545a14056cf5fbf226f0b8a65f749feddb61859b5fe5bcded0757",
+      "match": true
+    },
+    {
+      "path": "./salok-mahalla9/",
+      "status": 200,
+      "bytes": 12415,
+      "expected": "e23473a6f238e9e98a44d3bf1b5126a35425c56241f14d17568d1137f611b2f2",
+      "actual": "e23473a6f238e9e98a44d3bf1b5126a35425c56241f14d17568d1137f611b2f2",
+      "match": true
+    },
+    {
+      "path": "./salok-mahalla9/index.html",
+      "status": 200,
+      "bytes": 12415,
+      "expected": "e23473a6f238e9e98a44d3bf1b5126a35425c56241f14d17568d1137f611b2f2",
+      "actual": "e23473a6f238e9e98a44d3bf1b5126a35425c56241f14d17568d1137f611b2f2",
+      "match": true
+    },
+    {
+      "path": "./salok-mahalla9/data/library.json",
+      "status": 200,
+      "bytes": 788,
+      "expected": "abba1e752d13bd6a3dadef63d287d992fd20ac8a2408163239d501db2971769e",
+      "actual": "abba1e752d13bd6a3dadef63d287d992fd20ac8a2408163239d501db2971769e",
+      "match": true
+    },
+    {
+      "path": "./salok-mahalla9/data/salok-mahalla9.json",
+      "status": 200,
+      "bytes": 118876,
+      "expected": "f72690bb730b24e6631fbbabf574798e5451837987d227a807a3bcf49a366e75",
+      "actual": "f72690bb730b24e6631fbbabf574798e5451837987d227a807a3bcf49a366e75",
+      "match": true
+    },
+    {
+      "path": "./salok-mahalla9/learning/course.complete.json",
+      "status": 200,
+      "bytes": 435013,
+      "expected": "e8fdcba77ac0cbf0ab396218a86225e45901ff9cb5b1c8524c7f6261a443bc79",
+      "actual": "e8fdcba77ac0cbf0ab396218a86225e45901ff9cb5b1c8524c7f6261a443bc79",
+      "match": true
+    },
+    {
+      "path": "./vendor/opengranth/LICENSE",
+      "status": 200,
+      "bytes": 1436,
+      "expected": "7c8ad948da650fdec6bca1dc769a1a80f8cdf527f9248e1df56aed46e75c3dc2",
+      "actual": "7c8ad948da650fdec6bca1dc769a1a80f8cdf527f9248e1df56aed46e75c3dc2",
+      "match": true
+    },
+    {
+      "path": "./vendor/opengranth/NOTICE",
+      "status": 200,
+      "bytes": 3217,
+      "expected": "7b2776c739ed3baa5e424597ad2b304d729dd2dfb87b657deffe3ef06e8155bf",
+      "actual": "7b2776c739ed3baa5e424597ad2b304d729dd2dfb87b657deffe3ef06e8155bf",
+      "match": true
+    },
+    {
+      "path": "./salok-kabir/",
+      "status": 200,
+      "bytes": 13352,
+      "expected": "cf39a417a2df2d4e351b38e1bd97436abf872f16a967865090ba5cee3c3bc65d",
+      "actual": "cf39a417a2df2d4e351b38e1bd97436abf872f16a967865090ba5cee3c3bc65d",
+      "match": true
+    },
+    {
+      "path": "./salok-kabir/index.html",
+      "status": 200,
+      "bytes": 13352,
+      "expected": "cf39a417a2df2d4e351b38e1bd97436abf872f16a967865090ba5cee3c3bc65d",
+      "actual": "cf39a417a2df2d4e351b38e1bd97436abf872f16a967865090ba5cee3c3bc65d",
+      "match": true
+    },
+    {
+      "path": "./salok-kabir/data/library.json",
+      "status": 200,
+      "bytes": 814,
+      "expected": "eae1fdfdd3e9fedd7937bf95ec6bbe64f35b8112ece472a8a4b252bdf40d6c8d",
+      "actual": "eae1fdfdd3e9fedd7937bf95ec6bbe64f35b8112ece472a8a4b252bdf40d6c8d",
+      "match": true
+    },
+    {
+      "path": "./salok-kabir/data/salok-kabir.json",
+      "status": 200,
+      "bytes": 676775,
+      "expected": "34698bcbbaa8c54416de495011ee38493f549a5c0b92720e684f8c399dcf64f2",
+      "actual": "34698bcbbaa8c54416de495011ee38493f549a5c0b92720e684f8c399dcf64f2",
+      "match": true
+    },
+    {
+      "path": "./salok-kabir/learning/course.complete.json",
+      "status": 200,
+      "bytes": 1543204,
+      "expected": "909002381a351de0944cacb86ef2fd8b38438177e294a3fdd2b303a2ffbe86b9",
+      "actual": "909002381a351de0944cacb86ef2fd8b38438177e294a3fdd2b303a2ffbe86b9",
+      "match": true
+    },
+    {
+      "path": "./breathing.html",
+      "status": 200,
+      "bytes": 5350,
+      "expected": "891304b5de8cb933c9281029586260edead84ed209fb457942317366c91832ac",
+      "actual": "891304b5de8cb933c9281029586260edead84ed209fb457942317366c91832ac",
+      "match": true
+    },
+    {
+      "path": "./css/breathing.css",
+      "status": 200,
+      "bytes": 5643,
+      "expected": "54022c5e78f0eb78deff8d5a2b82c11f1ef941d6a597435a9c2e27399393ca3f",
+      "actual": "54022c5e78f0eb78deff8d5a2b82c11f1ef941d6a597435a9c2e27399393ca3f",
+      "match": true
+    },
+    {
+      "path": "./js/breathing-core.js",
+      "status": 200,
+      "bytes": 921,
+      "expected": "13263739bebcbb94f2fb28cb1b743a9cec0f9ecb4aa33397d4886017f866aca5",
+      "actual": "13263739bebcbb94f2fb28cb1b743a9cec0f9ecb4aa33397d4886017f866aca5",
+      "match": true
+    },
+    {
+      "path": "./js/breathing.js",
+      "status": 200,
+      "bytes": 2797,
+      "expected": "c894c9a693a6baa9fce3a3adc22662b2dc72a8a9fda4f3fc674152235e8abb38",
+      "actual": "c894c9a693a6baa9fce3a3adc22662b2dc72a8a9fda4f3fc674152235e8abb38",
+      "match": true
+    },
+    {
+      "path": "./articles/",
+      "status": 200,
+      "bytes": 4123,
+      "expected": "ba5cdba997a8b20f828751e7050468a0a955562bad10a32cd9dafe42d6cc5adf",
+      "actual": "ba5cdba997a8b20f828751e7050468a0a955562bad10a32cd9dafe42d6cc5adf",
+      "match": true
+    },
+    {
+      "path": "./articles/index.html",
+      "status": 200,
+      "bytes": 4123,
+      "expected": "ba5cdba997a8b20f828751e7050468a0a955562bad10a32cd9dafe42d6cc5adf",
+      "actual": "ba5cdba997a8b20f828751e7050468a0a955562bad10a32cd9dafe42d6cc5adf",
+      "match": true
+    },
+    {
+      "path": "./articles/article.html",
+      "status": 200,
+      "bytes": 3655,
+      "expected": "2614f45757137a81b7ca9d915682c153276482cb936f1bcf5c65765e08b25984",
+      "actual": "2614f45757137a81b7ca9d915682c153276482cb936f1bcf5c65765e08b25984",
+      "match": true
+    },
+    {
+      "path": "./articles/articles.css",
+      "status": 200,
+      "bytes": 8269,
+      "expected": "e17b935719ccc6058c5e4f8e87d273e587c885c185c615273ccd36c354906ac7",
+      "actual": "e17b935719ccc6058c5e4f8e87d273e587c885c185c615273ccd36c354906ac7",
+      "match": true
+    },
+    {
+      "path": "./articles/app.mjs",
+      "status": 200,
+      "bytes": 9081,
+      "expected": "f0b3b240c70ed23388d24d83d06c1f770ced7856a4bab689357e06a4932174b8",
+      "actual": "f0b3b240c70ed23388d24d83d06c1f770ced7856a4bab689357e06a4932174b8",
+      "match": true
+    },
+    {
+      "path": "./articles/core.mjs",
+      "status": 200,
+      "bytes": 10887,
+      "expected": "c27144526ac32550fc4e9a03da181d7413db4c54929d04d72772c52bef351124",
+      "actual": "c27144526ac32550fc4e9a03da181d7413db4c54929d04d72772c52bef351124",
+      "match": true
+    },
+    {
+      "path": "./articles/source-contracts.mjs",
+      "status": 200,
+      "bytes": 3812,
+      "expected": "abb640e5e3e10f123c50b5fdbe16d3a42fbf2fdfe29e9090ad4f1016523d04d0",
+      "actual": "abb640e5e3e10f123c50b5fdbe16d3a42fbf2fdfe29e9090ad4f1016523d04d0",
+      "match": true
+    },
+    {
+      "path": "./articles/catalog.json",
+      "status": 200,
+      "bytes": 1561,
+      "expected": "f4dba5709c478d61f9d2313b784239e77f35ed028c03bcc0a1a560391886a35f",
+      "actual": "f4dba5709c478d61f9d2313b784239e77f35ed028c03bcc0a1a560391886a35f",
+      "match": true
+    },
+    {
+      "path": "./qa-banner.css",
+      "status": 200,
+      "bytes": 1958,
+      "expected": "7b6421e8df2e5bcf58521d0e8130f1d62da3472b125b8550017c96ca8748ea24",
+      "actual": "7b6421e8df2e5bcf58521d0e8130f1d62da3472b125b8550017c96ca8748ea24",
+      "match": true
+    },
+    {
+      "path": "./qa-build.json",
+      "status": 200,
+      "bytes": 1026,
+      "expected": "bb18f74323bc6e665aea7cda5b33b21dff84f7017e3a365cc1e66624c4059acb",
+      "actual": "bb18f74323bc6e665aea7cda5b33b21dff84f7017e3a365cc1e66624c4059acb",
+      "match": true
+    },
+    {
+      "path": "./preview.html",
+      "status": 200,
+      "bytes": 3598,
+      "expected": "76e848b61a3c7acb34d971bbf76b3822cb9bfea9110a800c5774f15cb838c171",
+      "actual": "76e848b61a3c7acb34d971bbf76b3822cb9bfea9110a800c5774f15cb838c171",
+      "match": true
+    },
+    {
+      "path": "./sw.js",
+      "status": 200,
+      "bytes": 9328,
+      "expected": "d292c25adb3113981d8de42be26b4797347f47b4eb648a98ed50d8c7afe3de7c",
+      "actual": "d292c25adb3113981d8de42be26b4797347f47b4eb648a98ed50d8c7afe3de7c",
+      "match": true
+    },
+    {
+      "path": "./qa-verification.json",
+      "status": 200,
+      "bytes": 7809,
+      "expected": "7243ff7caa50ffd04e8eee68375d5714e0c18fc7eaed6da0084e391228bdd2d1",
+      "actual": "7243ff7caa50ffd04e8eee68375d5714e0c18fc7eaed6da0084e391228bdd2d1",
+      "match": true
+    }
+  ],
+  "kind": "Network artifact verification; not physical phone acceptance"
+}

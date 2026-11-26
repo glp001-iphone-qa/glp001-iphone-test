@@ -1,0 +1,18 @@
+{
+  "qaCommit": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+  "evidenceCommit": "02a921e691c10ff95517b95e33e2da4a014a13ba",
+  "rollback": "c1ab5030908ea172482a5659daa4027cda82b3f8",
+  "source": "acfeb0a157fc2cf38ae7ccbaeb2c53d8e97d3bec",
+  "productionUnchanged": "a3476ac4b9be90dde350fb35dd13ce0b672c120d",
+  "sourceDraftUnchanged": "acfeb0a157fc2cf38ae7ccbaeb2c53d8e97d3bec",
+  "pagesBuild": {
+    "status": "built",
+    "commit": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+    "created_at": "2026-11-26T22:14:51Z",
+    "updated_at": "2026-11-26T22:15:10Z",
+    "error": {
+      "message": null
+    }
+  },
+  "liveVerification": "PASS"
+}

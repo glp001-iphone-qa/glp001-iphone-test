@@ -1,0 +1,41 @@
+{
+  "startedAtUtc": "2026-11-26T22:16:22.759Z",
+  "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+  "scope": "Fresh desktop Chrome against actual GitHub Pages; no physical-device claim",
+  "checks": [
+    {
+      "name": "Preview guide",
+      "status": "PASS",
+      "servedFrom": "https://glp001-iphone-qa.github.io/glp001-iphone-test/preview.html",
+      "buildLabel": "Source build: acfeb0a · 26 Nov 2026 · Preview 3"
+    },
+    {
+      "name": "Library home",
+      "status": "PASS",
+      "servedFrom": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+      "buildLabel": "Source build: acfeb0a · 26 Nov 2026 · Preview 3"
+    },
+    {
+      "name": "Japji reader",
+      "status": "PASS",
+      "servedFrom": "https://glp001-iphone-qa.github.io/glp001-iphone-test/full-japji.html",
+      "buildLabel": "Source build: acfeb0a · 26 Nov 2026 · Preview 3"
+    },
+    {
+      "name": "Topic index",
+      "status": "PASS",
+      "servedFrom": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/index.html",
+      "buildLabel": "Source build: acfeb0a · 26 Nov 2026 · Preview 3"
+    },
+    {
+      "name": "Haumai source sheet",
+      "status": "PASS",
+      "servedFrom": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/article.html?id=haumai-source-sheet",
+      "buildLabel": "Source build: acfeb0a · 26 Nov 2026 · Preview 3"
+    }
+  ],
+  "runtimeErrors": [],
+  "browser": "158.0.8127.37",
+  "result": "PASS",
+  "finishedAtUtc": "2026-11-26T22:16:26.596Z"
+}
