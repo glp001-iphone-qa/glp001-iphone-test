@@ -1,5 +1,5 @@
-/* Isolated QA only; not included in the family website. */
-.glp-qa-banner{box-sizing:border-box;position:sticky;top:0;z-index:2147483000;width:100%;margin:0;background:#fff1ce;color:#4c271c;border-bottom:3px solid #ad4d22;padding:7px 10px;text-align:center;font:600 14px/1.55 system-ui,-apple-system,sans-serif;letter-spacing:.02em}
+/* Isolated QA label; in normal flow so it cannot cover reader recovery controls. */
+.glp-qa-banner{box-sizing:border-box;position:relative;width:100%;margin:0;background:#fff1ce;color:#4c271c;border-bottom:3px solid #ad4d22;padding:9px 10px;text-align:center;font:600 14px/1.55 system-ui,-apple-system,sans-serif;letter-spacing:.02em}
 .glp-qa-banner strong{font-weight:800}
 .glp-qa-banner small{display:block;font-weight:500;font-size:12px}
 @media(prefers-color-scheme:dark){.glp-qa-banner{background:#3d271b;color:#ffe4b0;border-bottom-color:#e8a662}}

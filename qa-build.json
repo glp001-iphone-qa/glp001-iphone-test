@@ -1,0 +1,14 @@
+{
+  "buildId": "qa2-1470477",
+  "preparedAtUtc": "2026-11-26T16:21:24.528743+00:00",
+  "sourceRepository": "sskhangura82/gurbani-learning-library",
+  "sourceCommit": "1470477b5a27a8f975f1efce74443a0e136aa94e",
+  "sourcePullRequest": 40,
+  "parentReaderRepairCommit": "1470477b5a27a8f975f1efce74443a0e136aa94e",
+  "parentReaderRepairPullRequest": 40,
+  "previousQaCommit": "99297203cf1b30f700a6cef0b75e616026cc88ee",
+  "cacheVersion": "iphone-qa2-1470477-20261126",
+  "runtimeScriptureChanges": false,
+  "physicalIphoneAcceptance": "NOT_RECORDED",
+  "qualifiedHumanReview": "PENDING"
+}

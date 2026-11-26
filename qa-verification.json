@@ -1,0 +1,205 @@
+{
+  "buildId": "qa2-1470477",
+  "sourceCommit": "1470477b5a27a8f975f1efce74443a0e136aa94e",
+  "verification": "BUILDER_DESKTOP_CHROMIUM",
+  "readerRepairScenariosPassed": 18,
+  "meaningButtonNamesChecked": 3773,
+  "sourceFilesByteIdentical": 49,
+  "offlineFingerprintsMatched": 61,
+  "bannerJumpChecks": [
+    {
+      "width": 390,
+      "line": "pauri05.line01",
+      "lineTop": 13.875,
+      "bannerBottom": -3923.125,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "line": "pauri20.line01",
+      "lineTop": 13.875,
+      "bannerBottom": -14285.125,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "line": "pauri38.line01",
+      "lineTop": 13.875,
+      "bannerBottom": -32339.125,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "line": "pauri05.line01",
+      "lineTop": 13.875,
+      "bannerBottom": -3866.125,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "line": "pauri20.line01",
+      "lineTop": 13.875,
+      "bannerBottom": -14000.125,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "line": "pauri38.line01",
+      "lineTop": 13.875,
+      "bannerBottom": -31769.125,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "line": "pauri05.line01",
+      "lineTop": 14.0625,
+      "bannerBottom": -4150.9375,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "line": "pauri20.line01",
+      "lineTop": 14.0625,
+      "bannerBottom": -15709.9375,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "line": "pauri38.line01",
+      "lineTop": 14.0625,
+      "bannerBottom": -35701.9375,
+      "hitIsLine": true,
+      "overlap": 0,
+      "overflow": false
+    }
+  ],
+  "nitnemControlChecks": [
+    {
+      "width": 390,
+      "selector": "#library-back",
+      "label": "Return to the Nitnem collection",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 390,
+      "selector": ".library-header .brand",
+      "label": "Gurbani Learning Library — Full Nitnem",
+      "top": 22.203125,
+      "bottom": 47.78125,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 390,
+      "selector": "[data-appearance=\"day\"]",
+      "label": "Light",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 390,
+      "selector": "[data-appearance=\"amrit\"]",
+      "label": "Dark",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 375,
+      "selector": "#library-back",
+      "label": "Return to the Nitnem collection",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 375,
+      "selector": ".library-header .brand",
+      "label": "Gurbani Learning Library — Full Nitnem",
+      "top": 22.203125,
+      "bottom": 47.78125,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 375,
+      "selector": "[data-appearance=\"day\"]",
+      "label": "Light",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 375,
+      "selector": "[data-appearance=\"amrit\"]",
+      "label": "Dark",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 320,
+      "selector": "#library-back",
+      "label": "Return to the Nitnem collection",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 320,
+      "selector": ".library-header .brand",
+      "label": "Gurbani Learning Library — Full Nitnem",
+      "top": 22.203125,
+      "bottom": 47.78125,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 320,
+      "selector": "[data-appearance=\"day\"]",
+      "label": "Light",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    },
+    {
+      "width": 320,
+      "selector": "[data-appearance=\"amrit\"]",
+      "label": "Dark",
+      "top": 13,
+      "bottom": 57,
+      "reachable": true,
+      "withinViewport": true
+    }
+  ],
+  "physicalIphoneAcceptance": false,
+  "qualifiedHumanReview": false,
+  "notes": "Tests used disposable browser contexts and synthetic notes; no production data was accessed."
+}
