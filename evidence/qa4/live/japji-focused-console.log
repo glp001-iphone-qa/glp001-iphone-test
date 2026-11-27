@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "report": "/tmp/glp001-iphoneqa-20261126/qa4-verification/live/2026-11-27T01-21-24-453Z/live-japji-focused.json",
+  "schema": "glp.qa4-live-japji-focused.v1",
+  "startedAtUtc": "2026-11-27T01:21:24.555Z",
+  "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/full-japji.html",
+  "deploymentCommit": "63780b0a15c56a974c9dafd41d3308c0b82c1bf7",
+  "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+  "purpose": "Resolve initial unsupported .gurbani-line selector using declared rendered article.scripture-line elements",
+  "runtimeErrors": [],
+  "externalRequests": [],
+  "limitations": [
+    "Fresh headless desktop Chrome; not physical iPhone/Safari/VoiceOver acceptance.",
+    "No private data or source mutation.",
+    "Original failing run remains retained."
+  ],
+  "localSourceSHA256": "7f5f78ac33da1a944e14c3d2b901926686df7e520e6fe681f6a28802d85e9808",
+  "browser": "158.0.8127.37",
+  "originalUnsupportedSelectorCount": 0,
+  "declaredSelectorCount": 385,
+  "allRenderedOccurrenceIdsAndTextsMatch": true,
+  "orderedOccurrenceSHA256": "9b55749b845e397131587f0d863da25dc2aa5f87e843612dfc9700f236fcb1dd",
+  "finishedAtUtc": "2026-11-27T01:21:26.321Z"
+}

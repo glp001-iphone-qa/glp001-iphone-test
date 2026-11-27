@@ -1,0 +1,568 @@
+{
+  "schema": "glp.qa4-upgrade-probe.v1",
+  "startedAtUtc": "2026-11-27T01:02:14.968Z",
+  "scope": "Builder desktop Chrome verification of the isolated QA adaptation",
+  "checks": [
+    {
+      "name": "Old QA installs its real hashed service worker in a fresh synthetic browser",
+      "status": "PASS",
+      "detail": {
+        "oldCache": "iphone-qa3-acfeb0a-20261126"
+      }
+    },
+    {
+      "name": "A valid bookmark and exact synthetic note are created through the old Japji UI",
+      "status": "PASS",
+      "detail": {
+        "fixture": "Created by ordinary shipped bookmark/reflection controls",
+        "noteExact": true
+      }
+    },
+    {
+      "name": "Replacing server files alone keeps the old installed reader until explicit update",
+      "status": "PASS"
+    },
+    {
+      "name": "Shipped reader update control activates the new release and preserves note and bookmark",
+      "status": "PASS",
+      "detail": {
+        "newCache": "iphone-qa4-389e79b-20261126",
+        "noteExact": true,
+        "bookmarkPreserved": true
+      }
+    },
+    {
+      "name": "New four entrances open directly with Preview 4 identity and current navigation",
+      "status": "PASS"
+    },
+    {
+      "name": "New main routes are reachable from the installed shell with browser network disabled",
+      "status": "PASS",
+      "detail": {
+        "routes": 15,
+        "network": "Browser-emulated offline; not physical airplane mode"
+      }
+    },
+    {
+      "name": "QA-only preview loads through an old cache and uses the shipped explicit update handler",
+      "status": "PASS",
+      "detail": {
+        "existingCachedPreviewPath": true,
+        "shippedHandler": true,
+        "syntheticNotePreserved": true
+      }
+    },
+    {
+      "name": "One-byte source-package mutation refuses the adapted article without scripture or printing",
+      "status": "PASS",
+      "detail": {
+        "mutatedBytes": 1,
+        "offset": 2,
+        "originalSHA256": "f72690bb730b24e6631fbbabf574798e5451837987d227a807a3bcf49a366e75",
+        "mutatedSHA256": "2f2c2994ec291cf5e6427193c93872a767766bdf4d57c88ded1212292ab243a0",
+        "visibleScriptureLines": 0,
+        "printDisabled": true
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "label": "Updated Japji",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 174.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "Entrance today",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "Entrance read",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "Entrance explore",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "Entrance saved",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "salok-mahalla9/index.html?bani=salok-mahalla9",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 169.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "salok-kabir/index.html?bani=salok-kabir",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 169.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "articles/index.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 122.46875,
+        "bottom": 183.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "index.html?view=today",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "index.html?view=read",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "index.html?view=explore",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "index.html?view=saved",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 175.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "nitnem/index.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 169.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "full-japji.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 174.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "sukhmani.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 174.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "salok-mahalla9/index.html?bani=salok-mahalla9",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 169.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "salok-kabir/index.html?bani=salok-kabir",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 169.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "articles/index.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 122.46875,
+        "bottom": 183.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "articles/article.html?id=haumai-source-sheet",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 122.46875,
+        "bottom": 183.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "articles/article.html?id=dubidha-source-sheet",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 122.46875,
+        "bottom": 183.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "simran.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 172.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "breathing.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 164.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "gurdwaras.html",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": {
+        "top": 98.46875,
+        "bottom": 178.46875
+      },
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    },
+    {
+      "label": "Updated Preview entrance",
+      "width": 390,
+      "documentWidth": 390,
+      "bannerCount": 1,
+      "banner": {
+        "top": 0,
+        "bottom": 98.46875,
+        "height": 98.46875,
+        "position": "relative"
+      },
+      "header": null,
+      "build": "Source build: 389e79b · 26 Nov 2026 · Preview 4"
+    }
+  ],
+  "screenshots": [
+    "updated-japji-390.png",
+    "entrance-today-390.png",
+    "entrance-read-390.png",
+    "entrance-explore-390.png",
+    "entrance-saved-390.png",
+    "preview-390.png",
+    "article-refuses-mutated-package-390.png"
+  ],
+  "runtimeErrors": [],
+  "blockedExternalRequests": [],
+  "serverErrors": [],
+  "limitations": [
+    "No physical iPhone, Safari, Home Screen, VoiceOver, or airplane-mode acceptance.",
+    "Only synthetic notes in fresh nonpersistent browser contexts.",
+    "Not Claude independent verification, qualified source review, or permission to release.",
+    "PDF copying and printing compatibility are outside this bounded check."
+  ],
+  "oldBuild": {
+    "buildId": "qa3-acfeb0a",
+    "preparedAtUtc": "2026-11-26T22:10:15.562577+00:00",
+    "preparedAtPacific": "2026-11-26T14:10:15.562577-08:00",
+    "sourceRepository": "sskhangura82/gurbani-learning-library",
+    "sourceCommit": "acfeb0a157fc2cf38ae7ccbaeb2c53d8e97d3bec",
+    "sourcePullRequest": 55,
+    "includedReliabilityCommit": "8917beaab7acc5770cb5a8fee682c9702a0689cb",
+    "includedReaderRepairCommit": "1470477b5a27a8f975f1efce74443a0e136aa94e",
+    "independentReviewCommit": "164a7e0446bb1381d153f5f1ecd3c09c44c245fc",
+    "previousQaCommit": "c1ab5030908ea172482a5659daa4027cda82b3f8",
+    "cacheVersion": "iphone-qa3-acfeb0a-20261126",
+    "runtimeScriptureChanges": false,
+    "physicalIphoneAcceptance": "NOT_RECORDED",
+    "qualifiedHumanReview": "PENDING",
+    "pdfCopyInteroperability": "OPEN",
+    "knowledgePilotIncluded": false,
+    "separateSukhmaniLinkedVisitRepairIncluded": false,
+    "releaseApproval": "NOT_CLAIMED",
+    "previewAuthorization": "Founder requested a working phone link to the current work on 26 November 2026."
+  },
+  "newBuild": {
+    "buildId": "qa4-389e79b",
+    "preparedAtUtc": "2026-11-27T00:59:47.923107+00:00",
+    "preparedAtPacific": "2026-11-26T16:59:47.923107-08:00",
+    "sourceRepository": "sskhangura82/gurbani-learning-library",
+    "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+    "sourcePullRequest": 56,
+    "includedReliabilityCommit": "8917beaab7acc5770cb5a8fee682c9702a0689cb",
+    "includedReaderRepairCommit": "1470477b5a27a8f975f1efce74443a0e136aa94e",
+    "independentReviewCommit": "cf6c895f5dbe8248e0349c8ba89291c54055b688",
+    "previousQaCommit": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+    "cacheVersion": "iphone-qa4-389e79b-20261126",
+    "runtimeScriptureChanges": false,
+    "physicalIphoneAcceptance": "NOT_RECORDED",
+    "qualifiedHumanReview": "PENDING",
+    "pdfCopyInteroperability": "OPEN",
+    "knowledgePilotIncluded": false,
+    "separateSukhmaniLinkedVisitRepairIncluded": false,
+    "releaseApproval": "NOT_CLAIMED",
+    "previewAuthorization": "Founder requested a working phone link to the current work on 26 November 2026."
+  },
+  "manifestIdentity": {
+    "byteIdentical": true,
+    "identity": {
+      "id": "./",
+      "name": "GLP-001 Preview — Test Copy",
+      "short_name": "GLP QA",
+      "description": "Separate development preview. Use made-up notes only. Qualified review pending.",
+      "start_url": "./",
+      "scope": "./",
+      "display": "standalone",
+      "background_color": "#f7f3e7",
+      "theme_color": "#f7f3e7",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  },
+  "workerDigests": {
+    "old": "d292c25adb3113981d8de42be26b4797347f47b4eb648a98ed50d8c7afe3de7c",
+    "candidate": "5136ebc86e5e23f8412fc12afe0519574d07ebb55b789ab3bfc522f87c1d5831"
+  },
+  "browserVersion": "158.0.8127.37",
+  "finishedAtUtc": "2026-11-27T01:02:23.439Z",
+  "status": "PASS"
+}

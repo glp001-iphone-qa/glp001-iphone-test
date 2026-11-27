@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 8,
+  "failure": null,
+  "evidence": "/tmp/glp001-iphoneqa-20261126/qa4-verification/upgrade/2026-11-27T01-02-14-854Z/upgrade-probe.json"
+}

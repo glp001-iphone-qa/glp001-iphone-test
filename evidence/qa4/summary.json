@@ -1,0 +1,53 @@
+{
+  "schema": "glp.qa4-bounded-verification.v1",
+  "result": "PASS",
+  "preparedAtUtc": "2026-11-27T01:11:37.437406+00:00",
+  "scope": "Builder desktop Chrome and local artifact verification only; no deployment, independent review, or physical-device acceptance",
+  "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+  "baselineQaCommit": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+  "browser": "158.0.8127.37",
+  "reports": {
+    "upgrade": {
+      "path": "upgrade/2026-11-27T01-02-14-854Z/upgrade-probe.json",
+      "sha256": "c9f09840fca378df0529aee3a94a37bb0fed4f3c50c76e5f5f0d452e36fc4c5b"
+    },
+    "library": {
+      "path": "library/2026-11-27T01-02-19-612Z/report.json",
+      "sha256": "816ba95ea383e9dee081eaff6473de7b51e5026519de7898422b5552a1c4f49f"
+    },
+    "saved": {
+      "path": "saved-entry/2026-11-27T01-02-24-431Z/browser.json",
+      "sha256": "b9d9ca5dd2ed0ec2e64f4a1a74256e61dad09c560c70370794a64e564f56873b"
+    },
+    "artifact": {
+      "path": "artifact-final-verification.json",
+      "sha256": "3ad4668cc9ad1203336a76bd9dbff3ca0a01ef1561efc5f4075656397d3a34dd"
+    }
+  },
+  "scripts": {
+    "qa4-upgrade-probe.mjs": "ea974841132406dc53e32ca49d00d676863c6eb3e4cf5bdbd9ab0e8a1b39fb85",
+    "qa4-library-browser.mjs": "0aed2be5cce782b138db8097b935faf3d290e3a1f387edc3119207225155c983",
+    "qa4-saved-entry-browser.mjs": "6bc68a4ed428163cf85de98c4eb739db36adf2ee6b4c8cfa8241e5f77c1e8863",
+    "qa4-artifact-final-verification.mjs": "fa877ddaf0593c4d2efefc0d4d2c418a69f23a1bcb1c74cd3d279d1f882da929"
+  },
+  "physicalIphone": "NOT_PERFORMED",
+  "safari": "NOT_PERFORMED",
+  "voiceOver": "NOT_PERFORMED",
+  "homeScreen": "NOT_PERFORMED",
+  "physicalAirplaneMode": "NOT_PERFORMED",
+  "candidateBehaviorFailures": [],
+  "instrumentFailuresRetained": [
+    "artifact-verification.json",
+    "artifact-verification-corrected.json",
+    "artifact-verification-final.json",
+    "artifact-purpose-verification.json",
+    "artifact-complete-verification.json"
+  ],
+  "instrumentCorrection": "Classify intentional QA adapters separately; parse Sukhmani JS as its declared window object; reverse only the exact injected HTML head block, preserving existing noindex metadata and original preceding whitespace. No application or candidate file was changed.",
+  "limitations": [
+    "Fresh nonpersistent headless Chrome contexts and synthetic notes only.",
+    "No personal profile, real notes, production origin, merge, push or deployment.",
+    "Loopback offline emulation and measured font enlargement are not physical phone acceptance.",
+    "PDF-copy interoperability and qualified Gurbani review remain open."
+  ]
+}

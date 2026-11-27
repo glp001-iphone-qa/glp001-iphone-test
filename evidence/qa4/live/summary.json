@@ -1,0 +1,54 @@
+{
+  "schema": "glp.qa4-live-verification-summary.v1",
+  "result": "PASS_ON_VERIFIED_LIVE_SCOPE",
+  "preparedAtUtc": "2026-11-27T01:22:35.695010+00:00",
+  "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+  "guideUrl": "https://glp001-iphone-qa.github.io/glp001-iphone-test/preview.html",
+  "pagesBuildUrl": "https://api.github.com/repos/glp001-iphone-qa/glp001-iphone-test/pages/builds/1407136590",
+  "deploymentCommit": "63780b0a15c56a974c9dafd41d3308c0b82c1bf7",
+  "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+  "pagesBuiltAt": "2026-11-27T01:14:14Z",
+  "browser": "158.0.8127.37",
+  "manifestAssetsMatched": 88,
+  "supplementalAssetsMatched": 2,
+  "reports": {
+    "pages": {
+      "path": "pages-build-ready.json",
+      "sha256": "b0b906e5863e9bd13b3c82533944bfd567ddd28f2d5f64d53bc7b4828516c611"
+    },
+    "fingerprints": {
+      "path": "2026-11-27T01-18-59-394082Z/live-fingerprints.json",
+      "sha256": "a0951526dcbb0772b4311a778f16d10d2006c4c7aad8d4e678aaaab89d8fa18c"
+    },
+    "browserInitialWithRetainedInstrumentFailure": {
+      "path": "2026-11-27T01-18-54-956Z/live-browser.json",
+      "sha256": "14ef59bf5f6d22a344004035c80358a12adb05a190baead3f2608c70d238dbe8"
+    },
+    "japjiFocusedCorrection": {
+      "path": "2026-11-27T01-21-24-453Z/live-japji-focused.json",
+      "sha256": "2cfdfbbe4915c8cea8e1eec52a150bdf034bf6fd49729b0a1f9cc367e6b55402"
+    }
+  },
+  "candidateBehaviorFailures": [],
+  "staleCdnResponsesObserved": false,
+  "physicalPhoneAcceptance": "NOT_PERFORMED",
+  "initialInstrumentFailure": {
+    "report": "2026-11-27T01-18-54-956Z/live-browser.json",
+    "cause": "The added count assertion used .gurbani-line, but the frozen renderer declares article.scripture-line.",
+    "proof": "Failure screenshot rendered Gurbani; source-integrity and line-data readiness passed. Focused fresh-page recheck matched all 385 declared DOM occurrences/texts with the pinned local source.",
+    "retained": true
+  },
+  "reusableFullBrowserScript": "qa4-live-browser-corrected.mjs",
+  "reusableFullBrowserScriptRun": "NOT_RERUN; successful initial checks plus focused Japji correction establish current scope",
+  "screenshots": [
+    "2026-11-27T01-18-54-956Z/live-today-390.png",
+    "2026-11-27T01-18-54-956Z/live-read-390.png",
+    "2026-11-27T01-21-24-453Z/live-japji-390.png"
+  ],
+  "limitations": [
+    "Fresh nonpersistent headless desktop Chrome, not an iPhone/Safari/Home Screen/VoiceOver/airplane-mode test.",
+    "Earlier synthetic QA3-to-QA4 update test remains separate.",
+    "No application edits, git mutations, external comments, personal profiles or private notes were used.",
+    "No qualified Gurbani approval or release approval is claimed."
+  ]
+}

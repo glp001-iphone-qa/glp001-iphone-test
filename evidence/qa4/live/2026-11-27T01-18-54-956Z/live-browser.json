@@ -1,0 +1,493 @@
+{
+  "schema": "glp.qa4-live-browser.v1",
+  "startedAtUtc": "2026-11-27T01:18:54.956Z",
+  "runId": "2026-11-27T01-18-54-956Z",
+  "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+  "deploymentCommit": "63780b0a15c56a974c9dafd41d3308c0b82c1bf7",
+  "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+  "scope": "Fresh headless desktop Chrome against actual GitHub Pages; no physical-device claim",
+  "checks": [
+    {
+      "name": "Live QA metadata identifies the exact frozen source and preview",
+      "status": "PASS",
+      "detail": {
+        "buildId": "qa4-389e79b",
+        "cacheVersion": "iphone-qa4-389e79b-20261126",
+        "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f"
+      }
+    },
+    {
+      "name": "Preview guide",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/preview.html",
+        "title": "Latest preview · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Root library",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+        "title": "Today · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct today entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=today",
+        "title": "Today · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct read entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=read",
+        "title": "Read · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct explore entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=explore",
+        "title": "Explore · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct saved entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=saved",
+        "title": "Saved · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Japji reader",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 385\n\n    at file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/live/qa4-live-browser.mjs:91:13\n    at async check (file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/live/qa4-live-browser.mjs:29:20)\n    at async file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/live/qa4-live-browser.mjs:65:27"
+    },
+    {
+      "name": "Kabir reader",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/salok-kabir/index.html?bani=salok-kabir&unit=1",
+        "title": "TEST COPY · Salok Bhagat Kabir Ji · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Topic index",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/index.html",
+        "title": "TEST COPY · Source reading sheets · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Haumai source sheet",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/article.html?id=haumai-source-sheet",
+        "title": "Haumai · Source reading sheet · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Live rendering has no external requests or uncaught runtime errors",
+      "status": "PASS"
+    }
+  ],
+  "runtimeErrors": [],
+  "externalRequests": [],
+  "responses": [
+    {
+      "name": "Preview guide",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/preview.html",
+      "status": 200,
+      "fromServiceWorker": false,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "1727",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:55 GMT",
+        "etag": "W/\"6b08d965-f12\"",
+        "expires": "Fri, 27 Nov 2026 01:28:55 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "0775e8a58d1f33a1aa4c1c79e8c0a1d173dd3e0b",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "A010:343A10:85786:992EF:6B08DA7F",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742336.558487,VS0,VE91"
+      }
+    },
+    {
+      "name": "Root library",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "3873",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:56 GMT",
+        "etag": "W/\"6b08d965-2981\"",
+        "expires": "Fri, 27 Nov 2026 01:28:55 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "b64ff2df986a2e55cac7e3f96375a18290a4f12f",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "51A4:21212F:87058:9AAA3:6B08DA7F",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742336.958107,VS0,VE82"
+      }
+    },
+    {
+      "name": "Direct today entrance",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=today",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "3873",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:56 GMT",
+        "etag": "W/\"6b08d965-2981\"",
+        "expires": "Fri, 27 Nov 2026 01:28:56 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "51690386288952a9837a4ebb0456c64b4a8612a4",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "A99C:2D7026:86B0E:9A46F:6B08DA7F",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742336.959232,VS0,VE78"
+      }
+    },
+    {
+      "name": "Direct read entrance",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=read",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "3873",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:56 GMT",
+        "etag": "W/\"6b08d965-2981\"",
+        "expires": "Fri, 27 Nov 2026 01:28:56 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "51690386288952a9837a4ebb0456c64b4a8612a4",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "A99C:2D7026:86B0E:9A46F:6B08DA7F",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742336.959232,VS0,VE78"
+      }
+    },
+    {
+      "name": "Direct explore entrance",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=explore",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "3873",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:56 GMT",
+        "etag": "W/\"6b08d965-2981\"",
+        "expires": "Fri, 27 Nov 2026 01:28:56 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "51690386288952a9837a4ebb0456c64b4a8612a4",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "A99C:2D7026:86B0E:9A46F:6B08DA7F",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742336.959232,VS0,VE78"
+      }
+    },
+    {
+      "name": "Direct saved entrance",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=saved",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "3873",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:56 GMT",
+        "etag": "W/\"6b08d965-2981\"",
+        "expires": "Fri, 27 Nov 2026 01:28:56 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "51690386288952a9837a4ebb0456c64b4a8612a4",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "A99C:2D7026:86B0E:9A46F:6B08DA7F",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742336.959232,VS0,VE78"
+      }
+    },
+    {
+      "name": "Japji reader",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/full-japji.html",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "2367",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:56 GMT",
+        "etag": "W/\"6b08d965-1735\"",
+        "expires": "Fri, 27 Nov 2026 01:28:55 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "b9dd24dae5dd36b9703013677c0d9e0403025ec6",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "77E0:325FF:87BDD:9B5C9:6B08DA7F",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742336.959352,VS0,VE77"
+      }
+    },
+    {
+      "name": "Kabir reader",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/salok-kabir/index.html?bani=salok-kabir",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "4938",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:58 GMT",
+        "etag": "W/\"6b08d965-3428\"",
+        "expires": "Fri, 27 Nov 2026 01:28:58 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "c95bd07e65a8e1b0814767baa46ddcf43197ff39",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "7AA6:470DD:83E33:9788E:6B08DA81",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742338.362497,VS0,VE77"
+      }
+    },
+    {
+      "name": "Topic index",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/index.html",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "1873",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:58 GMT",
+        "etag": "W/\"6b08d965-101b\"",
+        "expires": "Fri, 27 Nov 2026 01:28:58 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "2b2e66a2af19c3abb49df57abc9783de66cdb885",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "AD1C:429BF:870F3:9AB89:6B08DA81",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742339.646993,VS0,VE73"
+      }
+    },
+    {
+      "name": "Haumai source sheet",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/article.html?id=haumai-source-sheet",
+      "status": 200,
+      "fromServiceWorker": true,
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=600",
+        "content-encoding": "gzip",
+        "content-length": "1537",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 27 Nov 2026 01:18:58 GMT",
+        "etag": "W/\"6b08d965-e47\"",
+        "expires": "Fri, 27 Nov 2026 01:28:58 GMT",
+        "last-modified": "Fri, 27 Nov 2026 01:14:13 GMT",
+        "server": "GitHub.com",
+        "strict-transport-security": "max-age=31556952",
+        "vary": "Accept-Encoding",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-fastly-request-id": "4691e0d43c0a7551162e05568ca9cf4e73d98f38",
+        "x-github-edge-region": "westus3",
+        "x-github-request-id": "F836:20ACB:86A4C:9A3CC:6B08DA82",
+        "x-origin-cache": "HIT",
+        "x-proxy-cache": "MISS",
+        "x-served-by": "cache-pao-kpao1770048-PAO",
+        "x-timer": "S1795742339.704922,VS0,VE74"
+      }
+    }
+  ],
+  "screenshots": [
+    "live-preview-390.png",
+    "live-today-390.png",
+    "live-read-390.png",
+    "failure-8.png"
+  ],
+  "limitations": [
+    "Not physical iPhone, Safari, Home Screen, VoiceOver or airplane-mode acceptance.",
+    "This live read-only check does not replace the earlier synthetic QA3-to-QA4 upgrade test.",
+    "No private notes, personal profiles, source editing, deployment or release approval."
+  ],
+  "pagesBuild": {
+    "atUtc": "2026-11-27T01:16:14.249377+00:00",
+    "api": "repos/glp001-iphone-qa/glp001-iphone-test/pages/builds/latest",
+    "url": "https://api.github.com/repos/glp001-iphone-qa/glp001-iphone-test/pages/builds/1407136590",
+    "status": "built",
+    "commit": "63780b0a15c56a974c9dafd41d3308c0b82c1bf7",
+    "duration": 32577,
+    "created_at": "2026-11-27T01:13:42Z",
+    "updated_at": "2026-11-27T01:14:14Z",
+    "error": {
+      "message": null
+    }
+  },
+  "browser": "158.0.8127.37",
+  "liveMetadata": {
+    "buildId": "qa4-389e79b",
+    "preparedAtUtc": "2026-11-27T00:59:47.923107+00:00",
+    "preparedAtPacific": "2026-11-26T16:59:47.923107-08:00",
+    "sourceRepository": "sskhangura82/gurbani-learning-library",
+    "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+    "sourcePullRequest": 56,
+    "includedReliabilityCommit": "8917beaab7acc5770cb5a8fee682c9702a0689cb",
+    "includedReaderRepairCommit": "1470477b5a27a8f975f1efce74443a0e136aa94e",
+    "independentReviewCommit": "cf6c895f5dbe8248e0349c8ba89291c54055b688",
+    "previousQaCommit": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+    "cacheVersion": "iphone-qa4-389e79b-20261126",
+    "runtimeScriptureChanges": false,
+    "physicalIphoneAcceptance": "NOT_RECORDED",
+    "qualifiedHumanReview": "PENDING",
+    "pdfCopyInteroperability": "OPEN",
+    "knowledgePilotIncluded": false,
+    "separateSukhmaniLinkedVisitRepairIncluded": false,
+    "releaseApproval": "NOT_CLAIMED",
+    "previewAuthorization": "Founder requested a working phone link to the current work on 26 November 2026."
+  },
+  "cacheNames": [
+    "glp-static:https://glp001-iphone-qa.github.io/glp001-iphone-test/:iphone-qa4-389e79b-20261126"
+  ],
+  "finishedAtUtc": "2026-11-27T01:18:59.656Z",
+  "result": "FAIL"
+}

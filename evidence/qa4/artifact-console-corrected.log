@@ -1,0 +1,64 @@
+{
+  "result": "FAIL",
+  "checks": [
+    {
+      "name": "Baseline Git checkout and candidate metadata identify the frozen builds",
+      "status": "PASS",
+      "detail": {
+        "baseline": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+        "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+        "buildId": "qa4-389e79b",
+        "cacheVersion": "iphone-qa4-389e79b-20261126"
+      }
+    },
+    {
+      "name": "Manifest install identity is byte-identical to QA3",
+      "status": "PASS",
+      "detail": {
+        "sha256": "7759cc57ea7da1cb52043dc4ea1788e2801d59436d84eeee27d04dced043ea09",
+        "manifest": {
+          "id": "./",
+          "name": "GLP-001 Preview — Test Copy",
+          "short_name": "GLP QA",
+          "description": "Separate development preview. Use made-up notes only. Qualified review pending.",
+          "start_url": "./",
+          "scope": "./",
+          "display": "standalone",
+          "background_color": "#f7f3e7",
+          "theme_color": "#f7f3e7",
+          "icons": [
+            {
+              "src": "icons/icon-192.png",
+              "sizes": "192x192",
+              "type": "image/png"
+            },
+            {
+              "src": "icons/icon-512.png",
+              "sizes": "512x512",
+              "type": "image/png"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Every staged runtime module/data/style asset matches its frozen source object",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: robots.txt must match frozen source bytes\n    at file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification-corrected.mjs:35:10\n    at async check (file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification-corrected.mjs:16:48)\n    at async file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification-corrected.mjs:29:1"
+    },
+    {
+      "name": "All ten directory source bindings match their real bytes and unchanged QA3 packages",
+      "status": "PASS",
+      "detail": {
+        "readers": 10,
+        "bindings": 10,
+        "storageContractFiles": [
+          {
+            "path": "nitnem/local-learning.js",
+            "sha256": "8002c72c164737265019795b32aa4aff4065dda86f0cce7132983657de2f4e29"
+          }
+        ]
+      }
+    }
+  ]
+}

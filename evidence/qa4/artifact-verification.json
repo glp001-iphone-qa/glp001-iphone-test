@@ -1,0 +1,125 @@
+{
+  "schema": "glp.qa4-artifact-verification.v1",
+  "startedAtUtc": "2026-11-27T01:04:11.993Z",
+  "checks": [
+    {
+      "name": "Baseline Git checkout and candidate metadata identify the frozen builds",
+      "status": "PASS",
+      "detail": {
+        "baseline": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+        "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+        "buildId": "qa4-389e79b",
+        "cacheVersion": "iphone-qa4-389e79b-20261126"
+      }
+    },
+    {
+      "name": "Manifest install identity is byte-identical to QA3",
+      "status": "PASS",
+      "detail": {
+        "sha256": "7759cc57ea7da1cb52043dc4ea1788e2801d59436d84eeee27d04dced043ea09",
+        "manifest": {
+          "id": "./",
+          "name": "GLP-001 Preview — Test Copy",
+          "short_name": "GLP QA",
+          "description": "Separate development preview. Use made-up notes only. Qualified review pending.",
+          "start_url": "./",
+          "scope": "./",
+          "display": "standalone",
+          "background_color": "#f7f3e7",
+          "theme_color": "#f7f3e7",
+          "icons": [
+            {
+              "src": "icons/icon-192.png",
+              "sizes": "192x192",
+              "type": "image/png"
+            },
+            {
+              "src": "icons/icon-512.png",
+              "sizes": "512x512",
+              "type": "image/png"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Every staged runtime module/data/style asset matches its frozen source object",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: README.md must match frozen source bytes\n    at file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification.mjs:33:10\n    at async check (file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification.mjs:14:48)\n    at async file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification.mjs:27:1"
+    },
+    {
+      "name": "All ten directory source bindings match their real bytes and unchanged QA3 packages",
+      "status": "FAIL",
+      "error": "SyntaxError: Unexpected token '/', \"/* Origina\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification.mjs:49:21\n    at async check (file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification.mjs:14:48)\n    at async file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification.mjs:39:1"
+    }
+  ],
+  "sourceBindings": [
+    {
+      "reader": "japji",
+      "path": "js/japji-full-data.js",
+      "sha256": "7f5f78ac33da1a944e14c3d2b901926686df7e520e6fe681f6a28802d85e9808",
+      "unchangedFromQa3": true
+    },
+    {
+      "reader": "jaap",
+      "path": "nitnem/data/jaap.json",
+      "sha256": "f00ab63bfe27ad36fac6b7b285c480f3265780f5eb02bb077cafcc29c9e7dcec",
+      "unchangedFromQa3": true,
+      "compositionId": "jaap",
+      "editionId": "jaap-banidb-direct-20261125"
+    },
+    {
+      "reader": "savaiye",
+      "path": "nitnem/data/savaiye.json",
+      "sha256": "7d5e6fe9ac801b7649e4ef3547a25a79ee1f543f70c4f6bb52492d2d8f37cfaa",
+      "unchangedFromQa3": true,
+      "compositionId": "savaiye",
+      "editionId": "savaiye-discover-narrow-repairs-20261125"
+    },
+    {
+      "reader": "chaupai",
+      "path": "nitnem/data/chaupai.json",
+      "sha256": "289bbd6d725a7921bf1e160620b14ac927fe5e5874c219849168ee70b9389046",
+      "unchangedFromQa3": true,
+      "compositionId": "chaupai",
+      "editionId": "chaupai-expanded29-narrow-repairs-20261125"
+    },
+    {
+      "reader": "anand",
+      "path": "nitnem/data/anand.json",
+      "sha256": "124245dfbfa260efd618f513683cbd5dd273e5f7aefdf86bee28db4ee778471a",
+      "unchangedFromQa3": true,
+      "compositionId": "anand",
+      "editionId": "anand-opengranth-pinned-20261125"
+    },
+    {
+      "reader": "rehras",
+      "path": "nitnem/data/rehras.json",
+      "sha256": "81bff60d8c942a7eafc30a0b7f3ba994816c6e86a0c8d8daeb7c1ca2f2cebc3b",
+      "unchangedFromQa3": true,
+      "compositionId": "rehras",
+      "editionId": "rehras-sgpc-selection-narrow-repairs-20261125"
+    },
+    {
+      "reader": "sohila",
+      "path": "nitnem/data/sohila.json",
+      "sha256": "7fe21aec71a889c452d639141994087ee2a1390d800c78b59bf604c4496df673",
+      "unchangedFromQa3": true,
+      "compositionId": "sohila",
+      "editionId": "sohila-srigranth-digitally-collated-20261125"
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "limitations": [
+    "File identity and tested navigation do not constitute qualified Gurbani review or physical-device acceptance.",
+    "No live data or personal browser profile is accessed. No deployment is performed."
+  ],
+  "finishedAtUtc": "2026-11-27T01:04:12.067Z",
+  "result": "FAIL"
+}

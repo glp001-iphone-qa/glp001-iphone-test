@@ -1,0 +1,447 @@
+{
+  "schema": "glp.qa4-artifact-verification.v1",
+  "startedAtUtc": "2026-11-27T01:05:16.226Z",
+  "checks": [
+    {
+      "name": "Baseline Git checkout and candidate metadata identify the frozen builds",
+      "status": "PASS",
+      "detail": {
+        "baseline": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
+        "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+        "buildId": "qa4-389e79b",
+        "cacheVersion": "iphone-qa4-389e79b-20261126"
+      }
+    },
+    {
+      "name": "Manifest install identity is byte-identical to QA3",
+      "status": "PASS",
+      "detail": {
+        "sha256": "7759cc57ea7da1cb52043dc4ea1788e2801d59436d84eeee27d04dced043ea09",
+        "manifest": {
+          "id": "./",
+          "name": "GLP-001 Preview — Test Copy",
+          "short_name": "GLP QA",
+          "description": "Separate development preview. Use made-up notes only. Qualified review pending.",
+          "start_url": "./",
+          "scope": "./",
+          "display": "standalone",
+          "background_color": "#f7f3e7",
+          "theme_color": "#f7f3e7",
+          "icons": [
+            {
+              "src": "icons/icon-192.png",
+              "sizes": "192x192",
+              "type": "image/png"
+            },
+            {
+              "src": "icons/icon-512.png",
+              "sizes": "512x512",
+              "type": "image/png"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Every staged runtime module/data/style asset matches its frozen source object",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: robots.txt must match frozen source bytes\n    at file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification-corrected.mjs:35:10\n    at async check (file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification-corrected.mjs:16:48)\n    at async file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/qa4-artifact-verification-corrected.mjs:29:1"
+    },
+    {
+      "name": "All ten directory source bindings match their real bytes and unchanged QA3 packages",
+      "status": "PASS",
+      "detail": {
+        "readers": 10,
+        "bindings": 10,
+        "storageContractFiles": [
+          {
+            "path": "nitnem/local-learning.js",
+            "sha256": "8002c72c164737265019795b32aa4aff4065dda86f0cce7132983657de2f4e29"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceBindings": [
+    {
+      "reader": "japji",
+      "path": "js/japji-full-data.js",
+      "sha256": "7f5f78ac33da1a944e14c3d2b901926686df7e520e6fe681f6a28802d85e9808",
+      "unchangedFromQa3": true
+    },
+    {
+      "reader": "jaap",
+      "path": "nitnem/data/jaap.json",
+      "sha256": "f00ab63bfe27ad36fac6b7b285c480f3265780f5eb02bb077cafcc29c9e7dcec",
+      "unchangedFromQa3": true,
+      "compositionId": "jaap",
+      "editionId": "jaap-banidb-direct-20261125"
+    },
+    {
+      "reader": "savaiye",
+      "path": "nitnem/data/savaiye.json",
+      "sha256": "7d5e6fe9ac801b7649e4ef3547a25a79ee1f543f70c4f6bb52492d2d8f37cfaa",
+      "unchangedFromQa3": true,
+      "compositionId": "savaiye",
+      "editionId": "savaiye-discover-narrow-repairs-20261125"
+    },
+    {
+      "reader": "chaupai",
+      "path": "nitnem/data/chaupai.json",
+      "sha256": "289bbd6d725a7921bf1e160620b14ac927fe5e5874c219849168ee70b9389046",
+      "unchangedFromQa3": true,
+      "compositionId": "chaupai",
+      "editionId": "chaupai-expanded29-narrow-repairs-20261125"
+    },
+    {
+      "reader": "anand",
+      "path": "nitnem/data/anand.json",
+      "sha256": "124245dfbfa260efd618f513683cbd5dd273e5f7aefdf86bee28db4ee778471a",
+      "unchangedFromQa3": true,
+      "compositionId": "anand",
+      "editionId": "anand-opengranth-pinned-20261125"
+    },
+    {
+      "reader": "rehras",
+      "path": "nitnem/data/rehras.json",
+      "sha256": "81bff60d8c942a7eafc30a0b7f3ba994816c6e86a0c8d8daeb7c1ca2f2cebc3b",
+      "unchangedFromQa3": true,
+      "compositionId": "rehras",
+      "editionId": "rehras-sgpc-selection-narrow-repairs-20261125"
+    },
+    {
+      "reader": "sohila",
+      "path": "nitnem/data/sohila.json",
+      "sha256": "7fe21aec71a889c452d639141994087ee2a1390d800c78b59bf604c4496df673",
+      "unchangedFromQa3": true,
+      "compositionId": "sohila",
+      "editionId": "sohila-srigranth-digitally-collated-20261125"
+    },
+    {
+      "reader": "sukhmani",
+      "path": "js/sukhmani-data.js",
+      "sha256": "0cdd704749265c09ead442ec5fd6c84569b1da34dd40ec021585dacd4a1c65f6",
+      "unchangedFromQa3": true,
+      "compositionId": "sukhmani"
+    },
+    {
+      "reader": "salok-mahalla9",
+      "path": "salok-mahalla9/data/salok-mahalla9.json",
+      "sha256": "f72690bb730b24e6631fbbabf574798e5451837987d227a807a3bcf49a366e75",
+      "unchangedFromQa3": true,
+      "compositionId": "salok-mahalla9",
+      "editionId": "salok-mahalla9-opengranth-34d2a7c-20261126"
+    },
+    {
+      "reader": "salok-kabir",
+      "path": "salok-kabir/data/salok-kabir.json",
+      "sha256": "34698bcbbaa8c54416de495011ee38493f549a5c0b92720e684f8c399dcf64f2",
+      "unchangedFromQa3": true,
+      "compositionId": "salok-kabir",
+      "editionId": "salok-kabir-selected-witnesses-34d2a7c-20261126"
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "articles/app.mjs",
+      "sha256": "f0b3b240c70ed23388d24d83d06c1f770ced7856a4bab689357e06a4932174b8",
+      "bytes": 9081
+    },
+    {
+      "path": "articles/articles.css",
+      "sha256": "e17b935719ccc6058c5e4f8e87d273e587c885c185c615273ccd36c354906ac7",
+      "bytes": 8269
+    },
+    {
+      "path": "articles/catalog.json",
+      "sha256": "f4dba5709c478d61f9d2313b784239e77f35ed028c03bcc0a1a560391886a35f",
+      "bytes": 1561
+    },
+    {
+      "path": "articles/core.mjs",
+      "sha256": "c27144526ac32550fc4e9a03da181d7413db4c54929d04d72772c52bef351124",
+      "bytes": 10887
+    },
+    {
+      "path": "articles/source-contracts.mjs",
+      "sha256": "abb640e5e3e10f123c50b5fdbe16d3a42fbf2fdfe29e9090ad4f1016523d04d0",
+      "bytes": 3812
+    },
+    {
+      "path": "css/app.css",
+      "sha256": "b17abbb20661a9880792250b952008c84a03b2cd31cb3451b84685d67808d434",
+      "bytes": 25013
+    },
+    {
+      "path": "css/arrivals.css",
+      "sha256": "900579af694f620d544ed7375d5b3fa17ef7f010751f03451eb374f4b96a9801",
+      "bytes": 6415
+    },
+    {
+      "path": "css/breathing.css",
+      "sha256": "54022c5e78f0eb78deff8d5a2b82c11f1ef941d6a597435a9c2e27399393ca3f",
+      "bytes": 5643
+    },
+    {
+      "path": "css/home.css",
+      "sha256": "d398a0799198d24fdd29e87d6a9e0fca881790874db4753adf3333aec0dca93e",
+      "bytes": 8776
+    },
+    {
+      "path": "css/japji-full.css",
+      "sha256": "15ab6388144f65b31ab0a2d5d227c4bc4c060967f03da06e514138855053f13c",
+      "bytes": 21676
+    },
+    {
+      "path": "css/simran.css",
+      "sha256": "2eeff6264e09d2d6846d7a3a21cc6fb860453165a9ead5fa93f24f05dff4d67b",
+      "bytes": 4167
+    },
+    {
+      "path": "css/sukhmani.css",
+      "sha256": "3c3e81f9592d215809e52458f708314bd5624a0c1bd3eb13c22f2b8ab2c9cf3f",
+      "bytes": 7820
+    },
+    {
+      "path": "icons/icon-180.png",
+      "sha256": "98ec275ff591dee5d3f9c62993e32d07121c0a5ba24c09a5220e37fe21f671a7",
+      "bytes": 955
+    },
+    {
+      "path": "icons/icon-192.png",
+      "sha256": "25f35d2932f58f6cb3cdf224b0d8cffee122a71452f3b00eb91b9b451054b739",
+      "bytes": 983
+    },
+    {
+      "path": "icons/icon-512.png",
+      "sha256": "6177c056e2e0fc5e6a1b3aafff4f1f8b7882efcfe6a9f3ed49a5ffdd37bfda0c",
+      "bytes": 2962
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "fe18e2b5846dd329a0ab2d49fb3f30f7557bcc1ba9c676e70d649d1409aeae55",
+      "bytes": 25133
+    },
+    {
+      "path": "js/arrivals.js",
+      "sha256": "e820a555cd4fe98027938dc1a63439c8de595509f0b648fe7b01a1dd7e7a0118",
+      "bytes": 3690
+    },
+    {
+      "path": "js/breathing-core.js",
+      "sha256": "13263739bebcbb94f2fb28cb1b743a9cec0f9ecb4aa33397d4886017f866aca5",
+      "bytes": 921
+    },
+    {
+      "path": "js/breathing.js",
+      "sha256": "c894c9a693a6baa9fce3a3adc22662b2dc72a8a9fda4f3fc674152235e8abb38",
+      "bytes": 2797
+    },
+    {
+      "path": "js/content.js",
+      "sha256": "83d6541b9dde3c06d36a45fb4d4546e3d71a9fedda43108b49e94f2c829b5d62",
+      "bytes": 24595
+    },
+    {
+      "path": "js/continuous-core.js",
+      "sha256": "4b67e25ae2ecda6754cd9b768d60a49b5d6f421f10ed12ebc90313c4ddd2576d",
+      "bytes": 6056
+    },
+    {
+      "path": "js/core.js",
+      "sha256": "7f010691a2279387694c5235eb2744ae7b2a08d3569cedd754b5e9a6c09e0306",
+      "bytes": 5710
+    },
+    {
+      "path": "js/gurdwaras.js",
+      "sha256": "7540b5d637d65307a2d7112e5657ab6ffe06a07addaeddf5441e70f76f075ad2",
+      "bytes": 7977
+    },
+    {
+      "path": "js/home.js",
+      "sha256": "30e2072bbefa48b407c14582d82a21dec1281a375275ad4d0b9796dd97125cc4",
+      "bytes": 1489
+    },
+    {
+      "path": "js/japji-full-data.js",
+      "sha256": "7f5f78ac33da1a944e14c3d2b901926686df7e520e6fe681f6a28802d85e9808",
+      "bytes": 83714
+    },
+    {
+      "path": "js/japji-full.js",
+      "sha256": "1abf26b1aa39df4024605624a69aeb9a65021978d5e512b4fbe84562ba33e20f",
+      "bytes": 47107
+    },
+    {
+      "path": "js/japji-lessons.js",
+      "sha256": "4f77c593d2df8dd6e72ead4cb2b2012991a3ca0ad56495f6f5a30ae96a7d7078",
+      "bytes": 257626
+    },
+    {
+      "path": "js/learning.js",
+      "sha256": "ad40c7f08683e1955536266b692373ce454ec4638559ccd53a3af7299387e61b",
+      "bytes": 10230
+    },
+    {
+      "path": "js/line-meanings.js",
+      "sha256": "5f2ccfea58faa9fc5a31edac3ec9d3483e0ec2360e471fd3616f17eed005485a",
+      "bytes": 115470
+    },
+    {
+      "path": "js/places.js",
+      "sha256": "fb3a5e82851455e84c6666178740002df99a2c4f8e18f74ceec8f054511520ef",
+      "bytes": 1833
+    },
+    {
+      "path": "js/pwa.js",
+      "sha256": "7d940577bd74afc66b860ca7f7f13593c190c746a8e6a82f3d4edf00e10b4365",
+      "bytes": 2333
+    },
+    {
+      "path": "js/shared-learning.js",
+      "sha256": "8a35f16992769174163c9a3b0b6dacc767dac4cdf33e2f3e9e4c4d9f57eebe2b",
+      "bytes": 2119
+    },
+    {
+      "path": "js/simran.js",
+      "sha256": "f0e55833f7a0df06a7d011fa1bf6162d102ed2deeb33d7e5a68949d4e68baced",
+      "bytes": 2411
+    },
+    {
+      "path": "js/source-integrity.js",
+      "sha256": "b23448db043545a14056cf5fbf226f0b8a65f749feddb61859b5fe5bcded0757",
+      "bytes": 83910
+    },
+    {
+      "path": "js/sukhmani-data.js",
+      "sha256": "0cdd704749265c09ead442ec5fd6c84569b1da34dd40ec021585dacd4a1c65f6",
+      "bytes": 1241749
+    },
+    {
+      "path": "js/sukhmani-learning.js",
+      "sha256": "e781cf4decf30a7200def21c1a82c0031447d3cbc3d1662eb8971592c217d1a4",
+      "bytes": 4617
+    },
+    {
+      "path": "js/sukhmani-reader.js",
+      "sha256": "ac1c5551fe760a8315306c03586ddb2a13a11d79b510892335a7075f6c9bf86b",
+      "bytes": 32363
+    },
+    {
+      "path": "js/sukhmani-teaching.js",
+      "sha256": "5c637bc1f098cfd2416ad28404c79cc8561143fd7ca5921b3238a8f9cab134e6",
+      "bytes": 1841631
+    },
+    {
+      "path": "library/app.mjs",
+      "sha256": "2c73e9578263bc1bdeb8161249c53673d6f4b4ba12a50b60767e4b34fd9d9e00",
+      "bytes": 7015
+    },
+    {
+      "path": "library/catalog.mjs",
+      "sha256": "b21949fb8b7a9bfc3503a2be5be84aa7bcdd16bfb81ab587d98ce5924be167b4",
+      "bytes": 10175
+    },
+    {
+      "path": "library/core.mjs",
+      "sha256": "99399db465730ed4b3e22bd0028c5fae830b739a8fab60749cf0e61762491c40",
+      "bytes": 1840
+    },
+    {
+      "path": "library/library.css",
+      "sha256": "42f166b88440158c121cdbdb81f3fc41616bd84d699d5a4bb857b3a1af126978",
+      "bytes": 12385
+    },
+    {
+      "path": "nitnem/appearance.css",
+      "sha256": "01cef2268ca54a5ada570878f96a640090364bc1b82fda22a74e16bba05e7377",
+      "bytes": 2695
+    },
+    {
+      "path": "nitnem/appearance.js",
+      "sha256": "38cbe64a0f2e2302ea48f74085ac437d01096d4fa89729415fb501b6f8ceb5cc",
+      "bytes": 3595
+    },
+    {
+      "path": "nitnem/continuous-core.js",
+      "sha256": "9b48fa24327076bd35693dfdd5144cbbf004de488a9a6b962f3fa61d6174d78c",
+      "bytes": 4249
+    },
+    {
+      "path": "nitnem/data/anand.json",
+      "sha256": "124245dfbfa260efd618f513683cbd5dd273e5f7aefdf86bee28db4ee778471a",
+      "bytes": 127242
+    },
+    {
+      "path": "nitnem/data/chaupai.json",
+      "sha256": "289bbd6d725a7921bf1e160620b14ac927fe5e5874c219849168ee70b9389046",
+      "bytes": 70494
+    },
+    {
+      "path": "nitnem/data/jaap.json",
+      "sha256": "f00ab63bfe27ad36fac6b7b285c480f3265780f5eb02bb077cafcc29c9e7dcec",
+      "bytes": 538376
+    },
+    {
+      "path": "nitnem/data/library.json",
+      "sha256": "9cf422955cba07ee9a8f49fbcedc4969b84232d497658fcaafe37a4aa63f4d75",
+      "bytes": 2552
+    },
+    {
+      "path": "nitnem/data/rehras.json",
+      "sha256": "81bff60d8c942a7eafc30a0b7f3ba994816c6e86a0c8d8daeb7c1ca2f2cebc3b",
+      "bytes": 149365
+    },
+    {
+      "path": "nitnem/data/savaiye.json",
+      "sha256": "7d5e6fe9ac801b7649e4ef3547a25a79ee1f543f70c4f6bb52492d2d8f37cfaa",
+      "bytes": 27078
+    },
+    {
+      "path": "nitnem/data/sohila.json",
+      "sha256": "7fe21aec71a889c452d639141994087ee2a1390d800c78b59bf604c4496df673",
+      "bytes": 26637
+    },
+    {
+      "path": "nitnem/learning/course.complete.json",
+      "sha256": "5f9f877b37e2e0dba58076cdf6bfb5ec9201b2b5f02619d7b52821ec12d0e10c",
+      "bytes": 2313550
+    },
+    {
+      "path": "nitnem/learning/learning-ui.js",
+      "sha256": "dc6da48882ceb647023e451eb6fff10c57f2af87e9a531486cf8bb89c87409b2",
+      "bytes": 9161
+    },
+    {
+      "path": "nitnem/local-learning.js",
+      "sha256": "8002c72c164737265019795b32aa4aff4065dda86f0cce7132983657de2f4e29",
+      "bytes": 9147
+    },
+    {
+      "path": "nitnem/offline.js",
+      "sha256": "0eb4401ec4c22b5a0490450f2760be792236156a7dae9d99c946ecbbc6e5f690",
+      "bytes": 2682
+    },
+    {
+      "path": "nitnem/reader.css",
+      "sha256": "73977e4d6e3cd78286807a0af8d8bc58e7008daf96e8b84f364811a6a5076d57",
+      "bytes": 24066
+    },
+    {
+      "path": "nitnem/reader.js",
+      "sha256": "babdbd8a88e42ec86121d0d14ede3fc09692e67eae2d87541a98205befbb9e1f",
+      "bytes": 52961
+    }
+  ],
+  "limitations": [
+    "File identity and tested navigation do not constitute qualified Gurbani review or physical-device acceptance.",
+    "No live data or personal browser profile is accessed. No deployment is performed."
+  ],
+  "finishedAtUtc": "2026-11-27T01:05:16.909Z",
+  "result": "FAIL"
+}

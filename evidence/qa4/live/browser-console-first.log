@@ -1,0 +1,116 @@
+{
+  "result": "FAIL",
+  "report": "/tmp/glp001-iphoneqa-20261126/qa4-verification/live/2026-11-27T01-18-54-956Z/live-browser.json",
+  "checks": [
+    {
+      "name": "Live QA metadata identifies the exact frozen source and preview",
+      "status": "PASS",
+      "detail": {
+        "buildId": "qa4-389e79b",
+        "cacheVersion": "iphone-qa4-389e79b-20261126",
+        "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f"
+      }
+    },
+    {
+      "name": "Preview guide",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/preview.html",
+        "title": "Latest preview · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Root library",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+        "title": "Today · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct today entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=today",
+        "title": "Today · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct read entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=read",
+        "title": "Read · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct explore entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=explore",
+        "title": "Explore · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Direct saved entrance",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=saved",
+        "title": "Saved · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Japji reader",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 385\n\n    at file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/live/qa4-live-browser.mjs:91:13\n    at async check (file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/live/qa4-live-browser.mjs:29:20)\n    at async file:///private/tmp/glp001-iphoneqa-20261126/qa4-verification/live/qa4-live-browser.mjs:65:27"
+    },
+    {
+      "name": "Kabir reader",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/salok-kabir/index.html?bani=salok-kabir&unit=1",
+        "title": "TEST COPY · Salok Bhagat Kabir Ji · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Topic index",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/index.html",
+        "title": "TEST COPY · Source reading sheets · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Haumai source sheet",
+      "status": "PASS",
+      "detail": {
+        "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/articles/article.html?id=haumai-source-sheet",
+        "title": "Haumai · Source reading sheet · Gurbani Learning Library",
+        "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+        "width": 390
+      }
+    },
+    {
+      "name": "Live rendering has no external requests or uncaught runtime errors",
+      "status": "PASS"
+    }
+  ],
+  "runtimeErrors": [],
+  "externalRequests": []
+}
