@@ -1,9 +1,9 @@
 {
-  "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
-  "previousQaCommit": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
-  "allSourceBytesVerifiedBeforeAdaptation": true,
+  "sourceCommit": "7f36c3039ca95fac6e69ca28f631b9e3734c70e9",
+  "previousQaCommit": "63780b0a15c56a974c9dafd41d3308c0b82c1bf7",
   "unchangedRuntimeFiles": [
     ".nojekyll",
+    "articles/app.bundle.mjs",
     "articles/app.mjs",
     "articles/articles.css",
     "articles/catalog.json",
@@ -16,6 +16,16 @@
     "css/japji-full.css",
     "css/simran.css",
     "css/sukhmani.css",
+    "hukamnama/core.mjs",
+    "hukamnama/delivery.mjs",
+    "hukamnama/events/2026-11-27.json",
+    "hukamnama/json.mjs",
+    "hukamnama/learning.mjs",
+    "hukamnama/publication-key.mjs",
+    "hukamnama/reader.bundle.mjs",
+    "hukamnama/reader.mjs",
+    "hukamnama/sources/c7f434800aae668f63cb398304cfcaf6159e6343156653778ebef37bf3bcb20d.json",
+    "hukamnama/style.css",
     "icons/icon-180.png",
     "icons/icon-192.png",
     "icons/icon-512.png",
@@ -42,6 +52,17 @@
     "js/sukhmani-learning.js",
     "js/sukhmani-reader.js",
     "js/sukhmani-teaching.js",
+    "knowledge/app.bundle.mjs",
+    "knowledge/app.mjs",
+    "knowledge/core.mjs",
+    "knowledge/kinds.mjs",
+    "knowledge/pilot.json",
+    "knowledge/registry.mjs",
+    "knowledge/scripture.json",
+    "knowledge/search.mjs",
+    "knowledge/source-lock.mjs",
+    "knowledge/style.css",
+    "library/app.bundle.mjs",
     "library/app.mjs",
     "library/catalog.mjs",
     "library/core.mjs",
@@ -71,95 +92,116 @@
     "vendor/opengranth/LICENSE",
     "vendor/opengranth/NOTICE"
   ],
-  "unchangedRuntimeCount": 67,
+  "unchangedRuntimeCount": 89,
   "htmlAdaptations": [
     {
       "path": "articles/article.html",
-      "sourceSha256": "0a3397ea42e65bee35e53ff343b76f1c63ae4fe68af0d97c7b9269dac76d4a58",
-      "previewSha256": "55e03f09e23ffd1ce187f032aae9405ba764740f5ff227cdf5f896d5d536a6c6",
+      "sourceSha256": "c52ef9545250d1f48d1f0cc15881341cd10c2b1932bcd59484e971f6663d2db6",
+      "previewSha256": "6f76b800d3eb21ed12495437d1582ad1d9314374e1f37a6a3a38c6aa267afd06",
       "contentRestoredExactly": true
     },
     {
       "path": "articles/index.html",
-      "sourceSha256": "ae9e2c69f49e2b37a8d75bd671c28693e4804456f43ab5bed6d8145fbb3096d9",
-      "previewSha256": "44630f8ece5da323d285f645b0f6f9a3ef0b9507d83b2516ba41e24cf4759df2",
+      "sourceSha256": "08d05fd7caf18b1d9cb7f511629ede61a3ade0232798c55e956a7f1ba1c077b5",
+      "previewSha256": "a27e81c0d66338be30dd1e33a7e5913adca6daf810e1e113cccfe32f7a5e220f",
       "contentRestoredExactly": true
     },
     {
       "path": "breathing.html",
-      "sourceSha256": "82313f11d91a9dcd44f8674d4484d1ecc7fe0014c0af5129fe9c347b06f5bb11",
-      "previewSha256": "aba2ae69852e79d9478c3e76a73b05db8472e25d8aad5fd55db37a92f10ff492",
+      "sourceSha256": "3eb16e943ebf7b265bdd68843f310e0f5bbc1150c65291006fec2e81b401aca2",
+      "previewSha256": "225bee3de63d86c0eccbc09aac4b6a769c100ad8439ea68fcf1102bc88274f86",
       "contentRestoredExactly": true
     },
     {
       "path": "full-japji.html",
-      "sourceSha256": "fc2d52f276c582cbf7b3fd7a83744f269cf6cdc51f534a719a49c5080ecd3fc6",
-      "previewSha256": "7cc2be7b6aee3b94ea50234abc7c7c30716a6780f903fb6f158b2fecacdf3be2",
+      "sourceSha256": "38606bd101be77b9586bbd9e42f0dfac0abac8694b1c864ef56b4342bff87bb2",
+      "previewSha256": "682c4935558a9bac618e8a4ceaae79b356ded010f20a8c976a5032df68425dc9",
       "contentRestoredExactly": true
     },
     {
       "path": "gurdwara.html",
-      "sourceSha256": "ad399c868cfe51397c0f6f62f6df58aa9f405894c5734273ee61308fb6598fa7",
-      "previewSha256": "8b074ff4ff313805f9be976313523f95f5002bbc84033d91060123122fcd4623",
+      "sourceSha256": "f4896a2767a8b60dad2cecd34faa4bee8a235ba12ee15980741d63b0ba0fd25c",
+      "previewSha256": "0d1c29fe0d0776aba8d03ded292853074740556dbc9042f5715868cfcb9f86b0",
       "contentRestoredExactly": true
     },
     {
       "path": "gurdwaras.html",
       "sourceSha256": "5fa302ee2564cbe7189f7cea594d6634cadd939dac8071c08844eadfb826159e",
-      "previewSha256": "c13c61aca4fe6bad559a05a91d2b315ff580d104bc81749eac24ec3df93ddcb2",
+      "previewSha256": "5d68a00d15a430d7157845c75102bf316e2ccd419c868755134f1b6616e7bcc4",
+      "contentRestoredExactly": true
+    },
+    {
+      "path": "hukamnama/index.html",
+      "sourceSha256": "e5043bf222c647fb9b7e01d5d86e940efbb690199e913df94de46d653e25a138",
+      "previewSha256": "24d970fac3ee263f0f0b76601278a179ecf2360e7393d0a93235f97bb9bb561a",
       "contentRestoredExactly": true
     },
     {
       "path": "index.html",
-      "sourceSha256": "6c721db523bedb328dcdbd0246da9c0a711f13d1361c76395323536b7c160c8a",
-      "previewSha256": "b12d261ae5581289929cb035f672f76dc44ac2092c8d37bde6af366b581f9ce1",
+      "sourceSha256": "aa4fb5c78d3d8be64093f162dc62a01c890368434c9cc8222175cdbf6e0a1ded",
+      "previewSha256": "a9cda2d08136bf3f3fbe8c41f0f628cf35a9176f03f70f96d339638d31e517d0",
+      "contentRestoredExactly": true
+    },
+    {
+      "path": "knowledge/index.html",
+      "sourceSha256": "418d98ee446ffd4df7f88907eb62c22bc62702b23acf79e42d44cc60c557a6f2",
+      "previewSha256": "f09a9420eb3dd147de8091bbbdd08525e3abd6bbbd7082ee942293d54554164c",
       "contentRestoredExactly": true
     },
     {
       "path": "nitnem/index.html",
-      "sourceSha256": "a2f5d479fb4d8810eee5b195cedbacfb6fc043348953d9c8fa9b7ce3e671b568",
-      "previewSha256": "3630924bac712dda2e2c446fe7b1191680e4c732e06ab34f6578c204d5e34c28",
+      "sourceSha256": "4fe2a68409bb839e83764127a976c0697d62bb385e6cc917bde30115d15c6a5c",
+      "previewSha256": "ad71fd77a3d327e2acbb81524dd06f4f5d2c586a37a74c26cc1bd6d167d82cca",
       "contentRestoredExactly": true
     },
     {
       "path": "pauri-2-lesson.html",
-      "sourceSha256": "3fbf9fb59448896e6088b01dc1fdea7e12bb9eb6d69178d9a1c659835db57875",
-      "previewSha256": "7f4041b48b305c303b0fd1ba24157468426c3cd12febb06f34a2a10b395489aa",
+      "sourceSha256": "fa66b2481a80646f2a01be1648f4bc3d14b1902c8b36257b2d092934d4254fea",
+      "previewSha256": "cb2961d342482a74a17c07abea7287b726d98c7dd0f9dccec974cff1799d1aaa",
       "contentRestoredExactly": true
     },
     {
       "path": "salok-kabir/index.html",
       "sourceSha256": "d8ec8ecf028c2621f24b1b3272e1f9a6fcee074d9fdc7c2cd7b18dd3fff6ccf0",
-      "previewSha256": "e15203bcf9eae1bdd1b908720196d5db5b6f4358984b3c3aea50039e91deacb0",
+      "previewSha256": "d9984488ebc656c50d701fb09aa3875f81e4269fae54d70cc254b17005c92298",
       "contentRestoredExactly": true
     },
     {
       "path": "salok-mahalla9/index.html",
       "sourceSha256": "5e7850856bce88e6163ad1ff99a7f1907a1a5286b4df61de255b9ed3027ef5e5",
-      "previewSha256": "82f7f3518953f50df2f662c8ef52ba83b437da131b9ec7fc08a20ded6b865b27",
+      "previewSha256": "1cef1dec0d202bbba1a5b3796d52a0e635ba33fcde701949afa5a20925472f9d",
       "contentRestoredExactly": true
     },
     {
       "path": "simran.html",
-      "sourceSha256": "b89b3dda9327f9ca065ca732e0821605ba76b93175236c7b480021f096c22c26",
-      "previewSha256": "dd593f348bee4f5cec3363e431ac8200d9f98a4a29697a9173db8f5194d238f8",
+      "sourceSha256": "495468796b4c31a1d238b3016f6e4a6861f0096efb91a035d525f6367b60dbfa",
+      "previewSha256": "1d6cca4cfa14702421489d0fff0d740dccd3b50fe839967b08a78645abf14471",
       "contentRestoredExactly": true
     },
     {
       "path": "sukhmani.html",
-      "sourceSha256": "bd04103fb973e9d10a32a8836d7126c70ce7dee44916948fc66df41a47ee3a3b",
-      "previewSha256": "6f2684d2e7caeaef7f4dde4e71f17a7c2930d3741d7b76110c8d452e6bd44ba2",
+      "sourceSha256": "cda9aeac46232f3c6a72ac065eb9dafcb7480ebb71fb04a96cc7c0a6c10e65c8",
+      "previewSha256": "cd58cdbaf87e60291815bd07da5fc5328d230a6a83a63a199f5f858d6f1ae11f",
       "contentRestoredExactly": true
     }
   ],
-  "cacheAssetCount": 88,
+  "workerLogicUnchanged": true,
+  "cacheAssetCount": 100,
   "cacheFingerprintsMatch": true,
   "manifestIdentityPreserved": true,
   "browserStagingChecks": "PASS_ON_BOUNDED_DESKTOP_CHECKS",
   "physicalPhoneChecks": "NOT_PERFORMED",
-  "builderEvidenceBranch": "evidence/qa4-20261126",
-  "builderEvidencePath": "evidence/qa4/summary.json",
-  "builderEvidenceSummarySha256": "129802f43348366befaf116af43e26433df55086bda413a04aa5fadf63619129",
+  "sourceBranchMerge": false,
   "browser": "Desktop Chrome 158.0.8127.37",
-  "realDeviceAcceptance": "NOT_PERFORMED"
+  "previousPreviewUpdateCheck": {
+    "status": "PASS",
+    "previousQaCommit": "63780b0a15c56a974c9dafd41d3308c0b82c1bf7",
+    "targetSource": "7f36c3039ca95fac6e69ca28f631b9e3734c70e9",
+    "syntheticLocalRecordPreserved": true,
+    "updatedGuideVisible": true,
+    "newCacheActive": true,
+    "browser": "158.0.8127.37",
+    "physicalDevice": false,
+    "method": "Fresh Chromium context; local HTTP service-worker registration and update message; no real learner data"
+  }
 }

@@ -1,3 +1,2 @@
 User-agent: *
 Disallow: /
-# Public, unlisted development copy. noindex is not access control.

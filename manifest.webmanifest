@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "GLP-001 Preview — Test Copy",
-  "short_name": "GLP QA",
-  "description": "Separate development preview. Use made-up notes only. Qualified review pending.",
+  "name": "Gurbani Learning Library — Test",
+  "short_name": "Gurbani Test",
+  "description": "Read and explore the available Banis, source sheets and quiet spaces. Open saved learning in each reader. Qualified review pending.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
