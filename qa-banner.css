@@ -1,7 +1,7 @@
 /* QA identification in document flow; never covers reader controls. */
-.glp-qa-banner{box-sizing:border-box;position:relative;width:100%;margin:0;background:#fff1ce;color:#4c271c;border-bottom:3px solid #ad4d22;padding:9px 10px;text-align:center;font:600 14px/1.55 system-ui,-apple-system,sans-serif;letter-spacing:.02em}
+.glp-qa-banner{box-sizing:border-box;position:relative;width:100%;margin:0;background:#fff1ce;color:#4c271c;border-bottom:3px solid #ad4d22;padding:9px 10px;text-align:center;font:600 .875rem/1.55 system-ui,-apple-system,sans-serif;letter-spacing:.02em}
 .glp-qa-banner strong{font-weight:800}
-.glp-qa-banner small{display:block;font-weight:500;font-size:12px}
+.glp-qa-banner small{display:block;font-weight:500;font-size:.75rem}
 .glp-qa-banner a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 .qa-preview{margin:0;background:#f7f3e7;color:#24352d;font:17px/1.65 system-ui,-apple-system,sans-serif}
 .qa-preview main{max-width:760px;margin:auto;padding:28px 20px 60px}

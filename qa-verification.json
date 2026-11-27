@@ -1,6 +1,6 @@
 {
-  "sourceCommit": "acfeb0a157fc2cf38ae7ccbaeb2c53d8e97d3bec",
-  "previousQaCommit": "c1ab5030908ea172482a5659daa4027cda82b3f8",
+  "sourceCommit": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+  "previousQaCommit": "e7032867b9e4ed9bed9d302d72ecf9403f6479ca",
   "allSourceBytesVerifiedBeforeAdaptation": true,
   "unchangedRuntimeFiles": [
     ".nojekyll",
@@ -42,6 +42,10 @@
     "js/sukhmani-learning.js",
     "js/sukhmani-reader.js",
     "js/sukhmani-teaching.js",
+    "library/app.mjs",
+    "library/catalog.mjs",
+    "library/core.mjs",
+    "library/library.css",
     "nitnem/appearance.css",
     "nitnem/appearance.js",
     "nitnem/continuous-core.js",
@@ -67,147 +71,95 @@
     "vendor/opengranth/LICENSE",
     "vendor/opengranth/NOTICE"
   ],
-  "unchangedRuntimeCount": 63,
+  "unchangedRuntimeCount": 67,
   "htmlAdaptations": [
     {
       "path": "articles/article.html",
       "sourceSha256": "0a3397ea42e65bee35e53ff343b76f1c63ae4fe68af0d97c7b9269dac76d4a58",
-      "previewSha256": "2614f45757137a81b7ca9d915682c153276482cb936f1bcf5c65765e08b25984",
+      "previewSha256": "55e03f09e23ffd1ce187f032aae9405ba764740f5ff227cdf5f896d5d536a6c6",
       "contentRestoredExactly": true
     },
     {
       "path": "articles/index.html",
       "sourceSha256": "ae9e2c69f49e2b37a8d75bd671c28693e4804456f43ab5bed6d8145fbb3096d9",
-      "previewSha256": "ba5cdba997a8b20f828751e7050468a0a955562bad10a32cd9dafe42d6cc5adf",
+      "previewSha256": "44630f8ece5da323d285f645b0f6f9a3ef0b9507d83b2516ba41e24cf4759df2",
       "contentRestoredExactly": true
     },
     {
       "path": "breathing.html",
       "sourceSha256": "82313f11d91a9dcd44f8674d4484d1ecc7fe0014c0af5129fe9c347b06f5bb11",
-      "previewSha256": "891304b5de8cb933c9281029586260edead84ed209fb457942317366c91832ac",
+      "previewSha256": "aba2ae69852e79d9478c3e76a73b05db8472e25d8aad5fd55db37a92f10ff492",
       "contentRestoredExactly": true
     },
     {
       "path": "full-japji.html",
       "sourceSha256": "fc2d52f276c582cbf7b3fd7a83744f269cf6cdc51f534a719a49c5080ecd3fc6",
-      "previewSha256": "815644d061f05dec4f50132a01fbd8278ec5ea3848e8d689293b5203830847ef",
+      "previewSha256": "7cc2be7b6aee3b94ea50234abc7c7c30716a6780f903fb6f158b2fecacdf3be2",
       "contentRestoredExactly": true
     },
     {
       "path": "gurdwara.html",
       "sourceSha256": "ad399c868cfe51397c0f6f62f6df58aa9f405894c5734273ee61308fb6598fa7",
-      "previewSha256": "02f27f3874c0f39e2e239728572a9daaaff68bf85a1294c14665dc8c0b93118f",
+      "previewSha256": "8b074ff4ff313805f9be976313523f95f5002bbc84033d91060123122fcd4623",
       "contentRestoredExactly": true
     },
     {
       "path": "gurdwaras.html",
       "sourceSha256": "5fa302ee2564cbe7189f7cea594d6634cadd939dac8071c08844eadfb826159e",
-      "previewSha256": "b9c996bda8d2747f0638f643e68a1b4a9792426ee8af2823a2b3008b247ed9bd",
+      "previewSha256": "c13c61aca4fe6bad559a05a91d2b315ff580d104bc81749eac24ec3df93ddcb2",
       "contentRestoredExactly": true
     },
     {
       "path": "index.html",
-      "sourceSha256": "ee125fe38155182a81b0c474c7834bbcaa4b75fb68d2cac60e51609ad14974f4",
-      "previewSha256": "5319258b420b28bda88d855154a46b2b2cd8fcf4b343e82ff4db49af86ae3146",
+      "sourceSha256": "6c721db523bedb328dcdbd0246da9c0a711f13d1361c76395323536b7c160c8a",
+      "previewSha256": "b12d261ae5581289929cb035f672f76dc44ac2092c8d37bde6af366b581f9ce1",
       "contentRestoredExactly": true
     },
     {
       "path": "nitnem/index.html",
       "sourceSha256": "a2f5d479fb4d8810eee5b195cedbacfb6fc043348953d9c8fa9b7ce3e671b568",
-      "previewSha256": "fe57508a19f9af4551154fa3567f0a9390033dd2b1b469123e3c5b691edda5aa",
+      "previewSha256": "3630924bac712dda2e2c446fe7b1191680e4c732e06ab34f6578c204d5e34c28",
       "contentRestoredExactly": true
     },
     {
       "path": "pauri-2-lesson.html",
       "sourceSha256": "3fbf9fb59448896e6088b01dc1fdea7e12bb9eb6d69178d9a1c659835db57875",
-      "previewSha256": "f107bf3df6e48b0958e00e6bb2b94d73fb0d1cba020261452b3cb6d9c8c3810d",
+      "previewSha256": "7f4041b48b305c303b0fd1ba24157468426c3cd12febb06f34a2a10b395489aa",
       "contentRestoredExactly": true
     },
     {
       "path": "salok-kabir/index.html",
-      "sourceSha256": "3aa8eccec9a3ba207526068835b7a61a7f290d7a7cc1bcb103c7130616120122",
-      "previewSha256": "cf39a417a2df2d4e351b38e1bd97436abf872f16a967865090ba5cee3c3bc65d",
+      "sourceSha256": "d8ec8ecf028c2621f24b1b3272e1f9a6fcee074d9fdc7c2cd7b18dd3fff6ccf0",
+      "previewSha256": "e15203bcf9eae1bdd1b908720196d5db5b6f4358984b3c3aea50039e91deacb0",
       "contentRestoredExactly": true
     },
     {
       "path": "salok-mahalla9/index.html",
-      "sourceSha256": "365e524169162574e4f8f58d0cb0999894390eac636ffa00a376a4b7d0a1f624",
-      "previewSha256": "e23473a6f238e9e98a44d3bf1b5126a35425c56241f14d17568d1137f611b2f2",
+      "sourceSha256": "5e7850856bce88e6163ad1ff99a7f1907a1a5286b4df61de255b9ed3027ef5e5",
+      "previewSha256": "82f7f3518953f50df2f662c8ef52ba83b437da131b9ec7fc08a20ded6b865b27",
       "contentRestoredExactly": true
     },
     {
       "path": "simran.html",
       "sourceSha256": "b89b3dda9327f9ca065ca732e0821605ba76b93175236c7b480021f096c22c26",
-      "previewSha256": "9eada6b91c7800e2ec2eb92551a52f13afbc39b9e1c51b94c7e2769a7f08ac3b",
+      "previewSha256": "dd593f348bee4f5cec3363e431ac8200d9f98a4a29697a9173db8f5194d238f8",
       "contentRestoredExactly": true
     },
     {
       "path": "sukhmani.html",
       "sourceSha256": "bd04103fb973e9d10a32a8836d7126c70ce7dee44916948fc66df41a47ee3a3b",
-      "previewSha256": "7c0b0dfd6c857dc6c1605047b89a7f416e695892e180134fc1a93eb39060924d",
+      "previewSha256": "6f2684d2e7caeaef7f4dde4e71f17a7c2930d3741d7b76110c8d452e6bd44ba2",
       "contentRestoredExactly": true
     }
   ],
-  "cacheAssetCount": 84,
+  "cacheAssetCount": 88,
   "cacheFingerprintsMatch": true,
   "manifestIdentityPreserved": true,
-  "browserStagingChecks": {
-    "result": "PASS",
-    "environment": "Installed desktop Chrome 158.0.8127.37, fresh synthetic browser contexts, loopback HTTPS",
-    "record": "verification/upgrade-probe.json on evidence/qa3-20261126",
-    "checks": [
-      {
-        "name": "Old QA installs its real hashed service worker in a fresh synthetic browser",
-        "status": "PASS"
-      },
-      {
-        "name": "A valid bookmark and exact synthetic note are created through the old Japji UI",
-        "status": "PASS"
-      },
-      {
-        "name": "Replacing server files alone keeps the old installed reader until explicit update",
-        "status": "PASS"
-      },
-      {
-        "name": "Shipped reader update control activates the new release and preserves note and bookmark",
-        "status": "PASS"
-      },
-      {
-        "name": "New home opens the Salok and article links with narrow QA labels in normal flow",
-        "status": "PASS"
-      },
-      {
-        "name": "New main routes are reachable from the installed shell with browser network disabled",
-        "status": "PASS"
-      },
-      {
-        "name": "QA-only preview loads through an old cache and uses the shipped explicit update handler",
-        "status": "PASS"
-      },
-      {
-        "name": "One-byte source-package mutation refuses the adapted article without scripture or printing",
-        "status": "PASS"
-      }
-    ],
-    "physicalDeviceAcceptance": false,
-    "offlineMethod": "Browser network disabled, not physical airplane mode",
-    "sourceMutations": "A one-byte source package change refused all article scripture and printing",
-    "externalRequests": 0
-  },
+  "browserStagingChecks": "PASS_ON_BOUNDED_DESKTOP_CHECKS",
   "physicalPhoneChecks": "NOT_PERFORMED",
-  "builderVisualInspection": {
-    "screenshots": [
-      "home-390.png",
-      "kabir-390.png",
-      "preview-390.png"
-    ],
-    "result": "No material clipping or banner overlap observed in supplied viewport images",
-    "reviewer": "ChatGPT builder"
-  },
-  "workflowScopeInspection": {
-    "path": ".github/workflows/article-source-print-qa.yml",
-    "contentsPermission": "read",
-    "behavior": "Tests and evidence upload; no deployment step",
-    "independentClaudeVerification": false
-  }
+  "builderEvidenceBranch": "evidence/qa4-20261126",
+  "builderEvidencePath": "evidence/qa4/summary.json",
+  "builderEvidenceSummarySha256": "129802f43348366befaf116af43e26433df55086bda413a04aa5fadf63619129",
+  "browser": "Desktop Chrome 158.0.8127.37",
+  "realDeviceAcceptance": "NOT_PERFORMED"
 }
