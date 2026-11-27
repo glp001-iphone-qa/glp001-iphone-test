@@ -1,0 +1,217 @@
+{
+  "startedAtUtc": "2026-11-27T02:07:22.240Z",
+  "checks": [
+    {
+      "name": "390px fresh live root",
+      "status": "PASS",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+      "httpStatus": 200,
+      "responseSha256": "b12d261ae5581289929cb035f672f76dc44ac2092c8d37bde6af366b581f9ce1",
+      "matchesFrozenQA4": true,
+      "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+      "buildVisible": true,
+      "buildBox": {
+        "x": 10,
+        "y": 30.6875,
+        "width": 370,
+        "height": 18.59375
+      },
+      "navigation": [
+        {
+          "view": "today",
+          "text": "Today",
+          "href": "index.html?view=today",
+          "box": {
+            "x": 8,
+            "y": 841,
+            "width": 90.5,
+            "height": 52
+          }
+        },
+        {
+          "view": "read",
+          "text": "Read",
+          "href": "index.html?view=read",
+          "box": {
+            "x": 102.5,
+            "y": 841,
+            "width": 90.5,
+            "height": 52
+          }
+        },
+        {
+          "view": "explore",
+          "text": "Explore",
+          "href": "index.html?view=explore",
+          "box": {
+            "x": 197,
+            "y": 841,
+            "width": 90.5,
+            "height": 52
+          }
+        },
+        {
+          "view": "saved",
+          "text": "Saved",
+          "href": "index.html?view=saved",
+          "box": {
+            "x": 291.5,
+            "y": 841,
+            "width": 90.5,
+            "height": 52
+          }
+        }
+      ],
+      "entrances": [
+        {
+          "view": "read",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=read",
+          "heading": "Choose a reading",
+          "visible": true
+        },
+        {
+          "view": "explore",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=explore",
+          "heading": "Explore the library",
+          "visible": true
+        },
+        {
+          "view": "saved",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=saved",
+          "heading": "Your saved learning",
+          "visible": true
+        },
+        {
+          "view": "today",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=today",
+          "heading": "A moment with Gurbani.",
+          "visible": true
+        }
+      ],
+      "localStorageAfterReadOnlyNavigation": [],
+      "errors": [],
+      "failedRequests": []
+    },
+    {
+      "name": "390px live preview guide",
+      "status": "PASS",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/preview.html",
+      "httpStatus": 200,
+      "responseSha256": "c2a02014f7d9e6d529020094e91032af83066e39d7842092f64cf6bad0ebb2dd",
+      "matchesFrozenQA4": true,
+      "containsPreview4": true
+    },
+    {
+      "name": "1440px fresh live root",
+      "status": "PASS",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/",
+      "httpStatus": 200,
+      "responseSha256": "b12d261ae5581289929cb035f672f76dc44ac2092c8d37bde6af366b581f9ce1",
+      "matchesFrozenQA4": true,
+      "buildLabel": "Source build: 389e79b · 26 Nov 2026 · Preview 4",
+      "buildVisible": true,
+      "buildBox": {
+        "x": 10,
+        "y": 30.6875,
+        "width": 1420,
+        "height": 18.59375
+      },
+      "navigation": [
+        {
+          "view": "today",
+          "text": "Today",
+          "href": "index.html?view=today",
+          "box": {
+            "x": 397,
+            "y": 194.46875,
+            "width": 158.5,
+            "height": 46
+          }
+        },
+        {
+          "view": "read",
+          "text": "Read",
+          "href": "index.html?view=read",
+          "box": {
+            "x": 559.5,
+            "y": 194.46875,
+            "width": 158.5,
+            "height": 46
+          }
+        },
+        {
+          "view": "explore",
+          "text": "Explore",
+          "href": "index.html?view=explore",
+          "box": {
+            "x": 722,
+            "y": 194.46875,
+            "width": 158.5,
+            "height": 46
+          }
+        },
+        {
+          "view": "saved",
+          "text": "Saved",
+          "href": "index.html?view=saved",
+          "box": {
+            "x": 884.5,
+            "y": 194.46875,
+            "width": 158.5,
+            "height": 46
+          }
+        }
+      ],
+      "entrances": [
+        {
+          "view": "read",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=read",
+          "heading": "Choose a reading",
+          "visible": true
+        },
+        {
+          "view": "explore",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=explore",
+          "heading": "Explore the library",
+          "visible": true
+        },
+        {
+          "view": "saved",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=saved",
+          "heading": "Your saved learning",
+          "visible": true
+        },
+        {
+          "view": "today",
+          "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/index.html?view=today",
+          "heading": "A moment with Gurbani.",
+          "visible": true
+        }
+      ],
+      "localStorageAfterReadOnlyNavigation": [],
+      "errors": [],
+      "failedRequests": []
+    },
+    {
+      "name": "1440px live preview guide",
+      "status": "PASS",
+      "url": "https://glp001-iphone-qa.github.io/glp001-iphone-test/preview.html",
+      "httpStatus": 200,
+      "responseSha256": "c2a02014f7d9e6d529020094e91032af83066e39d7842092f64cf6bad0ebb2dd",
+      "matchesFrozenQA4": true,
+      "containsPreview4": true
+    }
+  ],
+  "limitations": [
+    "Fresh nonpersistent desktop Chrome contexts with service workers blocked; no real user profile, notes or saved state.",
+    "390px is an emulated viewport, not a physical phone test.",
+    "This is a read-only public-live inspection; nothing was deployed or modified."
+  ],
+  "environment": {
+    "node": "v22.15.0",
+    "browser": "158.0.8127.37",
+    "platform": "darwin"
+  },
+  "completedAtUtc": "2026-11-27T02:07:26.644Z",
+  "status": "PASS"
+}

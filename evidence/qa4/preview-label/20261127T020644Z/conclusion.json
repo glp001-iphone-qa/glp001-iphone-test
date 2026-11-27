@@ -1,0 +1,39 @@
+{
+  "finding": "PREV-01",
+  "status": "NOT_REPRODUCED_IN_THIS_CHECK",
+  "checkedAtUtc": "2026-11-27T02:07:26.644Z",
+  "reviewHeadReportedByRoot": "319266054b0c805c8862af3067866007b5ce7c26",
+  "frozenQACandidate": "63780b0a15c56a974c9dafd41d3308c0b82c1bf7",
+  "frozenSourceCandidate": "389e79baff4016a2ff61d1851908de0bd66beb8f",
+  "observations": [
+    "Unauthenticated canonical root HTTP response is byte-identical to frozen QA4 index.html and contains Preview 4 plus Today, Read, Explore and Saved navigation.",
+    "Canonical preview.html HTTP response is byte-identical to frozen QA4 preview.html.",
+    "Fresh desktop Chrome at390px and1440px displays the Preview4 label and all four navigation links; each entrance opens its expected visible panel.",
+    "No uncaught page errors or failed requests; localStorage remains empty after root navigation.",
+    "390px screenshot visually inspected: Preview4 banner is visible at top and Today/Read/Explore/Saved labels appear in fixed bottom navigation."
+  ],
+  "rootSha256": "b12d261ae5581289929cb035f672f76dc44ac2092c8d37bde6af366b581f9ce1",
+  "previewSha256": "c2a02014f7d9e6d529020094e91032af83066e39d7842092f64cf6bad0ebb2dd",
+  "limitations": [
+    "No physical-device result is inferred. Existing profiles, stale installed workers and other users\u2019 caches were not inspected.",
+    "The previous fetching-tool extraction is not available in this record, so extraction loss versus stale retrieval cannot be distinguished conclusively.",
+    "This does not adjudicate or close the independent review finding."
+  ],
+  "nextStep": "No product change is supported by this evidence. Compare the reviewer extraction with retained raw response bytes, headers, DOM and screenshots before deciding on PREV-01.",
+  "artifacts": [
+    "http-record.json",
+    "browser-report.json",
+    "root-http.html",
+    "preview-http.html",
+    "root-qa4-frozen.html",
+    "preview-qa4-frozen.html",
+    "root-source389.html",
+    "root-dom-390.html",
+    "root-dom-1440.html",
+    "root-today-390.png",
+    "root-today-1440.png",
+    "preview-390.png",
+    "preview-1440.png"
+  ],
+  "sourceOrQAChanges": false
+}
